@@ -1,0 +1,14 @@
+label {
+  clear: none; float: left;	width: auto; 
+}
+
+input[type = "checkbox"] {
+	clear: none;
+  float: left;
+  width: 20px;
+  margin: 8px 40px 0px 10px;
+}
+
+.close_account_span:hover {
+	cursor: pointer;
+}

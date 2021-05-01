@@ -1,0 +1,1879 @@
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("./fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Raleway-ExtraBold;
+  src: url("./fonts/Raleway-ExtraBold.ttf");
+}
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url("./fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: Raleway-Heavy;
+  src: url("./fonts/Raleway-Heavy.ttf");
+}
+@font-face {
+  font-family: Raleway-Thin;
+  src: url("./fonts/Raleway-Thin.ttf");
+}
+@font-face {
+  font-family: Raleway-Light;
+  src: url("./fonts/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("./fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Raleway-ExtraBold;
+  src: url("./fonts/Raleway-ExtraBold.ttf");
+}
+@font-face {
+  font-family: Khula-Light;
+  src: url("./fonts/Khula-Light.ttf");
+}
+@font-face {
+  font-family: Khula-Regular;
+  src: url("./fonts/Khula-Regular.ttf");
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url("./fonts/OpenSans-Semibold.ttf");
+}
+@font-face {
+  font-family: MartelSans-Regular;
+  src: url("./fonts/MartelSans-Regular.ttf");
+}
+/*@font-face { font-family: BastardusSans; src: url('./fonts/BastardusSans.ttf'); }*/
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url("./fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: OpenSans-SemiboldItalic;
+  src: url("./fonts/OpenSans-SemiboldItalic.ttf");
+}
+@font-face {
+  font-family: Raleway-ExtraLight;
+  src: url("./fonts/Raleway-ExtraLight.ttf");
+}
+/* @font-face { font-family: Sansation-Bold; src: url('./fonts/Sansation_Bold.ttf'); }
+*/
+
+::-webkit-scrollbar {
+  width: 16px;
+  background: #111;
+}
+::-webkit-scrollbar-track {
+  background: #ddd;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar:horizontal {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -mz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -mz-box-sizing: inherit;
+  box-sizing: inherit;
+  font-family: Raleway-Regular, sans-serif;
+  font-size: 100%;
+}
+
+html {
+  width: 100%;
+  min-height: 100%;
+}
+body {
+  width: 100%;
+  min-height: 100%;
+  color: #777;
+  font-size: 1em;
+}
+div#section {
+  width: 100%;
+  height: 100%;
+}
+#mainBodyWrapper {
+  min-height: 100%;
+}
+#mainDiv {
+  min-height: 100%;
+}
+
+/* Give all h1-h3 headings top and bottom margins each. */
+h1,
+h2,
+h3 {
+  margin: 30px 0px;
+}
+
+/* Get rid of default list bullets. */
+ul {
+  list-style-type: none;
+  list-style-image: url("./listImage.png");
+}
+
+a {
+  color: #555;
+}
+a:visited {
+  color: #333;
+}
+
+/* This is the page's header. */
+div#header {
+  width: 100%;
+  min-width: 240px;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  background-color: #efef50;
+  background-color: #efef5f;
+  box-shadow: 0px 0px 3px #777;
+  z-index: 500;
+}
+
+div#header div#colours {
+  width: 100%;
+  height: 4px;
+  background: #fff;
+}
+div#header div#colours span {
+  width: 20%;
+  height: 4px;
+  float: left;
+  box-shadow: 2px 0px 3px #453595;
+}
+div#header div#colours span#darkGrey {
+  background: #232323;
+}
+div#header div#colours span#purple {
+  background: #7aa97a;
+}
+div#header div#colours span#darkOrange {
+  background: #dac822;
+}
+div#header div#colours span#darkRed {
+  background: #a95822;
+}
+div#header div#colours span#darkGreen {
+  background: #7abb22;
+}
+
+/* This is the navigation area. */
+div#mainNav {
+  width: inherit;
+  height: inherit;
+  z-index: 1200;
+}
+
+/* This div contains the company's trademark and logo. */
+#trademarkDiv {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  height: 55px;
+  margin: 1px 0px;
+  padding-right: 0px 0px 0px 1%;
+  border: 0px solid;
+  text-align: center;
+  font-size: 2em;
+  color: rgba(140, 143, 110, 1);
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  /* background: linear-gradient(to bottom, rgba(40, 43, 40, 1), rgba(40, 45, 40, .9)); transition: all 2s; */
+  /* font-weight: 900; 
+	text-shadow: 0px 0px 1px rgba(10, 10, 40, 1); */
+  /* background: -o-linear-gradient(left, rgba(0, 160, 40, 1), rgba(150, 180, 30, .80));
+  background: -o-linear-gradient(top, rgba(140, 160, 40, 1), rgba(150, 180, 30, .80));
+  background: -webkit-linear-gradient(top, rgba(140, 160, 40, 1), rgba(150, 180, 30, .80)); 
+  background: -moz-linear-gradient(top, rgba(140, 160, 20, 1), rgba(150, 180, 30, .80));  
+  background: linear-gradient(to right,  #fbf50,  #efef50); transition: all 2s; */
+  /* box-shadow: 0px 1px 0.5px #a9a999; */
+}
+
+.small_levels {
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  width: 20px;
+  height: 4px;
+}
+
+#level_2 {
+  position: absolute;
+  top: 8px;
+}
+
+#level_3 {
+  position: absolute;
+  top: 12px;
+}
+
+#level_4 {
+  position: absolute;
+  top: 16px;
+}
+
+#level_5 {
+  position: absolute;
+  top: 20px;
+}
+
+#level_6 {
+  position: absolute;
+  top: 24px;
+}
+
+#level_7 {
+  position: absolute;
+  top: 28px;
+}
+
+#level_8 {
+  position: absolute;
+  top: 32px;
+}
+
+#level_9 {
+  position: absolute;
+  top: 36px;
+}
+
+.small_boxes {
+  float: left;
+  width: 5px;
+  height: 4px;
+  background-color: #222;
+}
+
+#box_1 {
+  float: left;
+}
+
+#box_2 {
+}
+
+#box_1,
+#box_2,
+#box_4,
+#box_5,
+#box_7,
+#box_8,
+#box_10,
+#box_13,
+#box_15,
+#box_17,
+#box_18,
+#box_22,
+#box_25,
+#box_27,
+#box_30,
+#box_33,
+#box_34 {
+  background-color: transparent;
+}
+
+#box_5 {
+  float: left;
+}
+
+#tradeName {
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 25px;
+  width: 100px;
+  height: 32px;
+  background: #222;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  background: linear-gradient(
+    to bottom,
+    rgba(40, 43, 40, 1),
+    rgba(42, 46, 40, 0.9)
+  );
+}
+
+#tradeName {
+  font-size: 0.62em;
+  font-weight: 900;
+  color: #efef5f;
+  padding: 4px 0px;
+}
+
+#firstBox,
+#secondBox,
+#thirdBox {
+  position: absolute;
+  left: 2%;
+  top: 28%;
+  margin-right: 30px;
+  width: 16px;
+  height: 24px;
+  background: #222;
+  background: -o-linear-gradient(top, rgba(20, 20, 20, 0.84), rgba(0, 0, 0, 1));
+  background: -webkit-linear-gradient(
+    top,
+    rgba(90, 90, 20, 0.84),
+    rgba(0, 0, 0, 1)
+  );
+  background: -moz-linear-gradient(
+    top,
+    rgba(20, 20, 20, 0.84),
+    rgba(0, 0, 0, 1)
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(90, 90, 60, 0.84),
+    rgba(50, 50, 50, 1)
+  );
+  /* box-shadow: 0px 0px 0px #333;*/
+  /* transform: skew(30deg);*/
+  /* letter-spacing: 2px;*/
+}
+
+#trademarkDiv a {
+  display: inline-block;
+  width: auto;
+  height: inherit;
+  text-decoration: none;
+}
+
+/* #trademarkDiv span:nth-child(1) {
+  border-bottom-left-radius: 30px;
+   position: absolute;
+ left: 27px;
+ top: 28%;
+}
+
+#trademarkDiv span:nth-child(2) {
+ position: absolute;
+ left: 47px;
+ top: 28%;
+}
+
+#trademarkDiv span:nth-child(3) {
+ position: absolute;
+ left: 67px;
+ top: 28%;
+ border-top-right-radius: 30px;
+} */
+
+#trademarkDiv span#eye {
+  position: absolute;
+  left: 5.4%;
+  top: 43%;
+  width: 5px;
+  height: 5px;
+  background: #efef50;
+  border-radius: 30px;
+}
+
+#trademarkDiv span#wing1 {
+  position: absolute;
+  left: 3.4%;
+  top: 14%;
+  width: 12px;
+  height: 12px;
+  background: #222;
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 20, 20, 1),
+    rgba(0, 0, 0, 0.8)
+  );
+
+  border-radius: 30px;
+}
+
+#trademarkDiv span#wing2 {
+  position: absolute;
+  left: 3.8%;
+  top: 14%;
+  width: 12px;
+  height: 12px;
+  background: #222;
+  background: linear-gradient(
+    to bottom,
+    rgba(120, 120, 120, 1),
+    rgba(70, 70, 40, 0.9)
+  );
+  border-radius: 30px;
+}
+
+#trademarkDiv span#brandName {
+  position: absolute;
+  top: 17px;
+  left: 5.2em;
+  font-size: 60%;
+  color: #525252;
+  letter-spacing: 1px;
+}
+
+#trademarkDiv span#brandName2 {
+  position: absolute;
+  top: 17px;
+  left: 8.7em;
+  font-size: 60%;
+  color: #525252;
+  letter-spacing: 1px;
+}
+
+#trademarkDiv span#altBrandName,
+#trademarkDiv span#altBrandName2 {
+  color: #525252;
+  display: none;
+}
+
+/* This div contains the search bar atop the page. */
+#searchDiv {
+  float: left;
+  width: 43%;
+  height: 47px;
+  margin-right: 0px;
+  padding-top: 8px;
+  font-size: 110%;
+  position: relative;
+}
+#searchForm {
+  width: 100%;
+  height: 50%;
+  z-index: 300;
+  position: relative;
+  top: 0px;
+  padding-top: 0px;
+}
+
+/* Search bar text field. */
+#searchTxt {
+  display: inline-block;
+  float: left;
+  width: 98%;
+  height: 32px;
+  margin-top: 0px;
+  border: 1px solid #cab575;
+  outline: none;
+  text-indent: 10px;
+  z-index: 500;
+  font-family: Raleway-Regular, sans-serif;
+  font-size: 90%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #f2f9c0;
+}
+
+/* Search button field. */
+#searchbuttonDiv {
+  float: left;
+  width: 2%;
+  padding-left: 0%;
+}
+
+#searchbuttonDiv #searchButton {
+  margin: 0px;
+  width: 20px;
+  position: relative;
+  left: -24px;
+  border: 0px solid;
+  outline: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 0px solid #333;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: transparent;
+  background: url(search.png) no-repeat 0px 7px;
+}
+
+div#options-menu-button-div {
+  float: right;
+  width: 50px;
+  height: 44px;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  /* background: url('./sb_images/settings_small.png') no-repeat 50% 50%; */
+}
+
+/* This links are contained within the list mentioned above. */
+a.helpLinks {
+  display: inline-block;
+  float: right;
+  width: 100%;
+  height: 46px;
+  color: #444;
+  text-decoration: none;
+  margin: 0px;
+}
+
+a.helpLinks strong {
+  display: block;
+  margin: 0px auto;
+}
+
+div#options-menu-button-div a#options-menu-button-link {
+  height: 46px;
+  border: 10px solid transparent;
+  padding-left: 10px;
+  padding-top: 0px;
+  border-left: 1px solid #bfbf00;
+}
+
+a#options-menu-button-link span {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 4px auto;
+  background: #5c5c5c;
+  border-radius: 1px;
+}
+
+div.options-menu-list {
+  clear: both;
+  width: 220px;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  border: 1px solid #eee;
+  opacity: 0; /*Just in case */
+  visibility: none;
+  /* border: 1px solid #cec; */
+  z-index: 800;
+  display: none;
+}
+
+/* Makes sure that they are are shown. */
+#options-menu-button-div li:hover .options-menu-list,
+div#options-menu-list-anchor:hover .options-menu-list {
+  display: block;
+  margin-top: 46px;
+  opacity: 1; /*Just in case */
+  visibility: visible;
+  margin-left: 0px;
+  background: #fff;
+  z-index: 800;
+  height: auto;
+}
+
+.options-menu-list input:hover {
+}
+.options-menu-list li {
+  height: auto;
+  border: 1px solid;
+}
+
+/* The links in '.options-menu-list'. */
+.options-menu-list a {
+  display: inline-block;
+  width: inherit;
+  height: 52.8px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  color: #444;
+  text-decoration: none;
+  z-index: 200;
+}
+
+.options-menu-list a:nth-child(2) {
+  display: inline-block;
+  width: inherit;
+  height: 20px;
+  margin-top: 0px;
+  color: #444;
+  text-decoration: none;
+  z-index: 200;
+}
+
+.options-menu-list,
+.options-menu-list ul,
+.options-menu-list ul li,
+.options-menu-list a {
+}
+.options-menu-list a:hover {
+  /* background: #8dd04d; */
+}
+
+/* This div contains the 'faq' and 'contact us' links. */
+#options-menu-list-div {
+  width: 220px;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-top: 60px;
+  /* right: 49%; */
+  z-index: 1000;
+  padding: 10px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #fff;
+}
+
+#options-menu-list-div ul li {
+  width: 100%;
+  float: left;
+  padding: 0px;
+  text-align: center;
+  border-right: 0px solid;
+  position: relative;
+  top: 2px;
+  font-size: 0.9em;
+}
+
+#options-menu-list-div ul li:nth-child(last),
+#options-menu-list-div ul li:nth-child(last) a {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#options-menu-list-div ul li a {
+  display: inline-block;
+  float: left;
+  width: auto;
+  text-align: center;
+  padding: 0px 0px;
+  background: transparent;
+  padding: 10px;
+  height: 40px;
+  padding-bottom: 6px;
+  font-size: 0.9em;
+  color: #444;
+  margin: 0px 0px 0px 0px;
+}
+
+#options-menu-list-div ul li a:nth-child(3) {
+}
+
+#options-menu-list-div ul li {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ff0;
+  padding: 0px;
+  text-align: center;
+  border: 0px solid;
+}
+
+#helpDiv ul li:hover {
+  /* background-color: #cd8d58; */
+}
+
+#options-menu-list-div ul li a:hover {
+  background-color: transparent;
+  color: #da6622;
+}
+
+#mainNav div#options-menu-button-div div#options-menu-list-anchor {
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  position: absolute;
+  top: -14px;
+  right: 10px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transform: rotate(-158deg);
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  z-index: 700;
+  display: none;
+}
+
+div#options-menu-button-div ul {
+  list-style-type: none;
+}
+
+/* This div contains the user interaction functionality for seeking help and signing in. */
+#helpDiv,
+#mobileView_helpDiv {
+  /* float: right;
+  width: auto;
+  height: 60px; 
+  font-size: 90%;
+  z-index: 600;
+  position: absolute;
+	top: 3px;
+	right: 0px; overflow: auto; */
+}
+
+#accountOptions {
+  position: fixed;
+  top: 0px;
+  right: 49px;
+  width: auto;
+  height: 46px;
+  font-size: 90%;
+  z-index: 900;
+  margin-top: 0px;
+}
+
+#accountOptions ul li {
+  display: inline-block;
+  float: left;
+  width: 54px;
+  height: 44px;
+  text-align: center;
+  z-index: 900;
+  margin-top: 2px;
+  margin-right: 0px;
+  padding-top: 8px;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+}
+
+#accountOptions ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 44px;
+  margin-top: 0px;
+  position: relative;
+  top: -20px;
+}
+
+#accountOptions ul li:nth-child(1) {
+  border-right: 1px solid #cc0;
+}
+
+#accountOptions ul li:nth-child(1) a {
+  padding: 14px 28px;
+}
+
+#accountOptions ul li:nth-child(1) a span {
+  /* background: url('settings_small.png') no-repeat 50% 50%;*/
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #565656;
+  border-radius: 3px;
+}
+
+#accountOptions ul li:nth-child(2) a {
+  background: url("profile_small3.png") no-repeat 50% 50%;
+}
+
+#accountOptions ul li:nth-child(3) a {
+  background: url("notification.png") no-repeat 50% 50%;
+}
+
+#accountOptions ul li:nth-child(4) a {
+  background: url("settings_small.png") no-repeat 50% 50%;
+}
+
+/* This unordered list is within the div mentioned above. */
+#helpDiv ul li {
+  display: inline-block;
+  float: left;
+  width: 33.333%;
+  height: 44px;
+  text-align: center;
+  z-index: 500;
+  margin-top: 2px;
+  margin-right: 0px;
+  border-right: 1px solid #cc0;
+  padding-top: 0px;
+}
+
+#helpDiv ul li a {
+  padding-top: 6px;
+}
+
+#helpDiv + ul li {
+  height: inherit;
+  border-right: 1px solid #cc8;
+}
+
+#helpDiv ul li:nth-child(2) {
+  float: left;
+  width: auto;
+  margin-left: 0px;
+  padding: 0px 10px;
+}
+
+#helpDiv ul li:nth-child(2) a {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#helpDiv ul li:nth-child(3) {
+  float: left;
+  width: auto;
+  margin-left: 0px;
+  border-right: 0px solid;
+  padding: 0px 10px;
+}
+
+div#upgradeBrowserMessage {
+  display: none;
+}
+
+#helpDiv ul li:hover,
+#mobileView_helpDiv ul li:hover {
+  background-color: #eddd58;
+}
+#helpDiv ul li:hover #helpMatters ul li,
+#mobileView_helpDiv ul li:hover #helpMatters ul li {
+  background-color: transparent;
+}
+
+#mobileView_helpDiv {
+  display: none;
+}
+
+/* The two divs within list 'helpDiv ul li'. */
+/* Makes sure that they are hidden. */
+.helpDivChild {
+  display: none;
+  width: 160%;
+  height: 120px;
+  margin-top: 116px;
+  background-color: #fff;
+  z-index: 100;
+  opacity: 0; /*Just in case */
+  visibility: none;
+  /* border: 1px solid #cec; */
+  border: 1px solid #eee;
+  border-top: none;
+  color: #112;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Makes sure that they are are shown. */
+li:hover .helpDivChild {
+  display: block;
+  opacity: 1; /*Just in case */
+  visibility: visible;
+  margin-left: 0px;
+  z-index: 100;
+}
+
+.helpDivChild input:hover {
+}
+.helpDivChild li {
+  height: auto;
+  border: 0px solid;
+}
+
+/* The links in '.helpDivChild'. */
+.helpDivChild a {
+  display: inline-block;
+  width: inherit;
+  height: 52.8px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  color: #444;
+  text-decoration: none;
+  z-index: 200;
+}
+
+.helpDivChild a:nth-child(2) {
+  display: inline-block;
+  width: inherit;
+  height: 0px;
+  margin-top: 0px;
+  color: #444;
+  text-decoration: none;
+  z-index: 200;
+}
+
+.helpDivChild,
+.helpDivChild ul,
+.helpDivChild ul li,
+.helpDivChild a {
+}
+.helpDivChild a:hover {
+  /* background: #8dd04d; */
+}
+
+/* Div that contains form for user to sign in. */
+#accountDiv {
+  width: 240px;
+  height: 190px;
+  margin-left: -94%;
+  padding: 10px 10px;
+  z-index: 500;
+  position: absolute;
+  top: 1px;
+  right: 0%;
+}
+
+#accountDiv input[type="text"] {
+  margin-bottom: 18px;
+}
+
+#accountDiv input[type="email"],
+#accountDiv input[type="password"] {
+}
+
+a#profileNameTagLink {
+  display: inline-block;
+  margin-top: 0px;
+  height: 54px;
+}
+
+span#profileNameTag {
+  display: inline-block;
+  padding-left: 0px;
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#accountDiv span {
+  display: inline-block;
+  font-size: 0.9em;
+  color: #666;
+  margin-left: 2px;
+  margin-bottom: 10px;
+}
+
+#forgotDetailSpan {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  top: 130px;
+  left: 20px;
+}
+
+#forgotDetailSpan a {
+  line-height: 1.6em;
+  display: inline-block;
+  width: auto;
+  float: left;
+  color: #555;
+}
+
+/* This div contains the 'faq' and 'contact us' links. */
+#helpMatters {
+  width: 188px;
+  height: auto;
+  position: absolute;
+  top: 0.5px;
+  /* right: 49%; */
+  z-index: 500;
+  padding: 0px;
+}
+
+#helpMatters ul li {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  border-right: 0px solid;
+  position: relative;
+  top: 2px;
+}
+
+#helpMatters ul li:nth-child(3),
+#helpMatters ul li:nth-child(3) a {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #444;
+}
+
+#helpMatters ul li a {
+  display: inline-block;
+  float: left;
+  width: inherit;
+  text-align: center;
+  padding-top: 15px;
+  background: transparent;
+  margin-top: -2px;
+}
+
+#helpMatters ul li a:hover {
+  /* background: #a7e757; */
+  background: #a7e757;
+  background: #fbfbd3;
+  background: #fafae0;
+  border-left: 6px solid #e4e4ef;
+}
+
+#helpMatters ul li:nth-child(3) a:hover {
+  /* background: #a7e757; */
+  background: #a7e757;
+  background: #fbfbd3;
+  background: #fafaf3;
+  border-left: 6px solid #ad5;
+  border-radius: 0px;
+}
+
+/* This links are contained within the list mentioned above. */
+a.helpLinks {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: inherit;
+  padding: 13px 20px;
+  color: #444;
+  text-decoration: none;
+  margin: 0px;
+}
+
+a.helpLinks strong {
+  display: block;
+  margin: 0px auto;
+}
+
+#dropDownShelf {
+  width: 900px;
+  height: 200px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 0px solid #333;
+  border-top: 1px solid #ffffff;
+  padding: 0px;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  background: -o-linear-gradient(
+    top,
+    rgba(40, 43, 40, 1),
+    rgba(40, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(40, 43, 40, 1),
+    rgba(40, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  background: -moz-linear-gradient(
+    top,
+    rgba(40, 43, 40, 1),
+    rgba(40, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  background: linear-gradient(
+    to bottom,
+    rgba(40, 43, 40, 1),
+    rgba(40, 45, 40, 1)
+  );
+  transition: all 2s;
+  color: #ffffff;
+  box-shadow: 0px 10px 10px #444;
+  z-index: 900;
+}
+
+#dropDownShelf ul,
+#dropDownShelf ul li {
+  padding: 0;
+  margin: 0;
+  height: 0px;
+  width: 0px;
+  display: inline-block;
+}
+
+#dropDownShelf ul li:hover,
+#dropDownShelf ul a:hover {
+  background: transparent;
+  color: #dd7;
+}
+
+#dropDownShelf ul:hover {
+  cursor: pointer;
+}
+
+#dropDownShelf ul {
+  float: left;
+  width: 100%;
+  height: 146px;
+  padding-top: 0px;
+  margin-right: none;
+  padding-bottom: 10px;
+  background: #33332f;
+  border-right: 1px solid #292926;
+  z-index: 400;
+}
+
+#dropDownShelf ul li {
+  /*width:100%;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-left: 35px;
+  font-size: 1em; */
+  border-right: 0px solid #292926;
+}
+
+/* #dropDownShelf ul li.heading {
+  padding-left: 18px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  height: 33px;
+  color: #ee9;
+  text-shadow: 1px 1px 12px #444;
+} */
+
+#dropDownShelf a {
+  color: inherit;
+}
+
+#dropDownShelf ul li ul li {
+  display: inline-block;
+  width: auto;
+  margin-left: -60px;
+  margin-top: 2px;
+  height: inherit;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+#dropDownShelf #extraCurrList {
+  display: none;
+  padding-top: 25px;
+  width: 100%;
+  height: 130px;
+  border-top: 2px solid #2a2a2a;
+  border-bottom-right-radius: 8px;
+  margin-top: 10px;
+  padding-top: 25px;
+  border-bottom-left-radius: 8px;
+  z-index: 500;
+}
+
+#extraCurrDiv {
+  clear: both;
+  width: 99.9%;
+  height: 30px;
+  background: #33332f;
+  border-top: 1px solid #2a2a2a;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: 1px solid #2a2a2a;
+  z-index: 200;
+  text-align: center;
+  margin-top: 140px;
+  padding-top: 6px;
+}
+
+#extraCurrDiv:hover {
+  height: 34px;
+  border-bottom: 4px solid #2a2a2a;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#dropDownShelf #outerMost {
+  display: block;
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+  border: 2px solid #343434;
+  z-index: 900;
+  padding: 22px 20px 0px 20px;
+}
+
+#dropDownShelf #outerMost li {
+  float: left;
+  width: 33.3333%;
+  height: auto;
+  padding: 18px 0px 0px 38px;
+  margin-bottom: 12px;
+  text-align: left;
+  line-height: 1.8em;
+}
+
+#dropDownShelf #outerMost li a {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 0px 20px 0px 20px;
+  text-align: left;
+}
+
+#extraCurrDiv:hover #extraCurrList {
+  display: block;
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+  border: 2px solid #343434;
+  z-index: 900;
+}
+
+#dropDownShelf #extraCurrList li {
+  float: left;
+  width: 16.5%;
+  height: 44px;
+  padding-top: 14px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  margin-bottom: 6px;
+}
+
+#dropDownShelf #extraCurrList li:hover {
+  /* border-bottom: 2px solid #774;
+  box-shadow: 0px 0px 1px #444; */
+  width: 16.8%;
+}
+
+/* This div contains the signUp form. */
+.subDivs {
+  width: 50%;
+  height: 470px;
+  float: left;
+  border-right: 1px solid #883;
+}
+
+#lodgeSearchDiv {
+  border: none;
+  width: 49%;
+  font-family: Raleway-Regular, sans-serif;
+  font-size: 100%;
+}
+
+/* This is the page's footer. */
+div#footer {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: 2em;
+  margin-top: 100px;
+  padding: 0% 2% 5% 2%;
+  background-color: rgba(20, 23, 20, 1);
+  background-color: transparent;
+  color: #333;
+  font-size: 1em;
+}
+
+/* the address element in the footer element. */
+div#footer div#address {
+  font-style: normal;
+}
+
+/* Link behaviour in footer. */
+div#footer a {
+  color: #333;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+div#footer a:visited {
+  color: #333;
+}
+
+/* All three divs in footer. */
+.floatDivs {
+  height: auto;
+  margin-top: 20px;
+  padding: 0 20px;
+  border-right: 0px solid #222;
+}
+
+div#footer #first,
+div#footer #second,
+div#footer #third {
+  width: 100%;
+  font-size: 0.9em;
+  text-align: center;
+  color: #333;
+}
+
+/* Second div in footer. */
+div#footer #second a {
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+div#footer #second li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Third div in footer. */
+div#footer #third li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+div#footer #third a {
+  color: #333;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1px) {
+  /* This div contains the search bar. */
+  /* These spans are parts of the company's logo. */
+  #firstBox,
+  #secondBox,
+  #thirdBox {
+    width: 16px;
+  }
+
+  /* #trademarkDiv span:nth-child(1) { position: absolute; left: 10px; display:none; }
+#trademarkDiv span:nth-child(2) { position: absolute; left: 30px; display:none; }
+#trademarkDiv span:nth-child(3) { position: absolute; left: 50px; display:none; } */
+
+  /* This div contains the company's logo and the trade name. */
+  #trademarkDiv {
+    width: auto;
+    height: 50px;
+    position: relative;
+    left: 0%;
+  }
+
+  #trademarkDiv span#brandName,
+  #trademarkDiv span#brandName2 {
+    display: none;
+  }
+
+  /* This div contains the search bar atop the page. */
+  #searchDiv {
+    width: 76%;
+    position: relative;
+    left: 7%;
+  }
+
+  /* This is the search bar itself. */
+  #searchTxt {
+    width: 64%;
+    font-size: 0.7em;
+  }
+
+  /* This is the search button beside the search bar. */
+  #searchbuttonDiv {
+    width: 36%;
+    font-size: 0.9em;
+  }
+
+  #searchbuttonDiv #searchButton {
+    margin: 0px;
+    width: 90%;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0px solid #333;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  /* This div contains the menu that provides the user options for logging in and getting help. */
+  #helpDiv {
+    clear: none;
+    width: 100%;
+    height: 35px;
+    background-color: #454530;
+    border-top: 1px solid #bbbb33;
+    box-shadow: 1px 1px 2px #999;
+    margin-top: -4px;
+  }
+
+  #mobileView_helpDiv {
+    display: none;
+  }
+
+  #helpDiv ul {
+    width: 100%;
+    margin-top: -120px;
+  }
+
+  /* These are the list items that contain the menu items. */
+  #helpDiv ul li {
+    width: 33.333%;
+    border-right: 1px solid #332;
+    height: 30px;
+  }
+
+  #helpDiv ul li:nth-child(3) {
+    border-right: 0px solid #332;
+    height: 30px;
+  }
+
+  /* These are the menu items contained within the list items mentioned above. */
+  #helpDiv > ul > li > a {
+    height: inherit;
+    font-size: 80%;
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* This div contains helpful links to the 'Contact Us' and 'FAQ' pages. */
+  #helpMatters {
+    width: 160px;
+    height: 122px;
+    position: absolute;
+    top: -61.3%;
+    left: 0.6%;
+    padding: 0px;
+    border: 1px solid #cfcfcf;
+  }
+
+  #helpMatters ul li {
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    text-align: center;
+    border: 0px solid;
+  }
+
+  #helpDiv ul li:hover {
+    background-color: #cd8d58;
+  }
+
+  #helpMatters ul li a {
+    padding-top: 12px;
+    height: 40px;
+    padding-bottom: 6px;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+  #helpMatters ul li a:hover {
+    background-color: #fcfca8;
+  }
+
+  #accountDiv {
+    width: 240px;
+    height: 190px;
+    padding: 10px 10px;
+    z-index: 500;
+    position: absolute;
+    top: -61.3%;
+    right: 0.4%;
+    border: 1px solid #cfcfcf;
+  }
+
+  /* This is the link that takes the user to the 'forgot your password page'. */
+  #forgotDetailSpan {
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+  }
+
+  #forgotDetailSpan a {
+    line-height: 1.6em;
+    display: inline-block;
+    width: auto;
+    float: left;
+    color: #555;
+  }
+
+  #mainNav div#errorBasket {
+    width: 80%;
+    position: absolute;
+    top: 98px;
+    right: 0%;
+  }
+
+  #mainNav div#errorDivAnchor {
+    position: absolute;
+    top: 0px;
+    right: 16.8%;
+  }
+
+  #mainNav div#errorDiv {
+    width: 300px;
+    height: auto;
+    font-size: 110%;
+    padding: 12px 8px 12px 8px;
+    font-size: 1em;
+    position: absolute;
+    top: 14px;
+    right: 1.2%;
+  }
+
+  #mainNav div#errorMessage {
+    width: 78%;
+    height: auto;
+    float: left;
+  }
+
+  /* This is the page's footer. */
+  footer {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0% 1% 5% 1%;
+    font-size: 0.9em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid #eee;
+  }
+
+  footer div#first,
+  footer div#second,
+  footer div#third {
+    clear: both;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    text-align: ;
+    padding: 0px 12px 2px 12px;
+    height: auto;
+  }
+
+  footer div#second {
+    text-align: center;
+  }
+
+  footer div#second ul li {
+    margin-right: 10px;
+    line-height: 1.8em;
+  }
+
+  footer div#second a {
+    font-size: 0.8em;
+  }
+
+  footer div#second,
+  footerfooter div#third {
+    margin-top: 20px;
+  }
+
+  footer div#third {
+    padding: 20 10px;
+    font-size: 0.8em;
+    border-bottom: 0px solid;
+  }
+
+  footer div#third ul li {
+    float: left;
+    width: auto;
+    height: 30px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 10px 12px 0px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  /* This div contains the search bar. */
+  /* These spans are parts of the company's logo. */
+  #firstBox,
+  #secondBox,
+  #thirdBox {
+    width: 16px;
+  }
+
+  /* #trademarkDiv span:nth-child(1) { position: absolute; left: 10px; }
+#trademarkDiv span:nth-child(2) { position: absolute; left: 30px; }
+#trademarkDiv span:nth-child(3) { position: absolute; left: 50px; } */
+
+  #trademarkDiv span#brandName,
+  #trademarkDiv span#brandName2 {
+    display: none;
+    font-size: 0.46em;
+  }
+
+  /* Company's trade name first half. */
+  #trademarkDiv span#brandName {
+    position: relative;
+    top: 4px;
+    left: 3.8em;
+  }
+
+  /* Company's trade name second half. */
+  #trademarkDiv span#brandName2 {
+    position: relative;
+    top: 0px;
+    left: 3.3em;
+  }
+
+  /* This div contains the search bar atop the page. */
+  #searchDiv {
+    width: 72%;
+    position: relative;
+    left: 9%;
+  }
+
+  /* This is the search bar itself. */
+  #searchTxt {
+    width: 64%;
+    font-size: 0.7em;
+  }
+
+  /* This is the search button beside the search bar. */
+  #searchbuttonDiv {
+    width: 36%;
+    font-size: 0.9em;
+  }
+
+  /* This div contains the menu that provides the user options for logging in and getting help. */
+  #helpDiv {
+    clear: none;
+    width: 100%;
+    height: 40px;
+    background-color: #454530;
+    border-top: 1px solid #bbbb33;
+    box-shadow: 1px 1px 2px #999;
+  }
+
+  /* These are the list items that contain the menu items. */
+  #helpDiv ul li {
+    width: 33.333%;
+    border-right: 1px solid #332;
+    height: 30px;
+  }
+
+  #helpDiv ul li:nth-child(3) {
+    border-right: 0px solid #332;
+  }
+
+  /* These are the menu items contained within the list items mentioned above. */
+  #helpDiv > ul > li > a {
+    height: inherit;
+    font-size: 80%;
+    padding-top: 0px;
+    color: #fff;
+    text-align: center;
+  }
+
+  /* This div contains the sign in form that enables the user to log in. */
+  #accountDiv {
+    width: 240px;
+    height: 190px;
+    padding: 10px 10px;
+    z-index: 500;
+    position: absolute;
+    top: -60%;
+    right: 0.4%;
+  }
+
+  /* This is the link that takes the user to the 'forgot your password page'. */
+  #forgotDetailSpan a {
+    line-height: 1.6em;
+    display: inline-block;
+    width: auto;
+    float: left;
+    color: #555;
+  }
+
+  /* This div contains helpful links to the 'Contact Us' and 'FAQ' pages. */
+  #helpMatters {
+    width: 180px;
+    position: absolute;
+    top: -61.3%;
+    left: 0%;
+    padding: 0px;
+    border: 1px solid #cfcfcf;
+    font-size: 100%;
+  }
+
+  #helpMatters ul li {
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    text-align: center;
+    border: 0px solid;
+  }
+
+  #helpMatters ul li a {
+    height: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #444;
+  }
+
+  #helpDiv ul li:hover {
+    background-color: #cd8d58;
+  }
+
+  /* This div contains helpful links to the 'Contact Us' and 'FAQ' pages. */
+  #helpMatters ul li a:hover {
+    background-color: #fcfca8;
+  }
+
+  #mainNav div#errorBasket {
+    width: 80%;
+    position: absolute;
+    top: 98px;
+    right: 0%;
+  }
+
+  #mainNav div#errorDivAnchor {
+    position: absolute;
+    top: 0px;
+    right: 16.8%;
+  }
+
+  #mainNav div#errorDiv {
+    width: 300px;
+    height: auto;
+    font-size: 110%;
+    padding: 12px 8px 12px 8px;
+    font-size: 1em;
+    position: absolute;
+    top: 14px;
+    right: 1.2%;
+  }
+
+  #mainNav div#errorMessage {
+    width: 78%;
+    height: auto;
+
+    float: left;
+  }
+
+  /* This is the page's footer. */
+  footer {
+    clear: both;
+    width: 100%;
+    height: auto;
+    padding: 0% 1% 5% 1%;
+    font-size: 0.9em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid #eee;
+  }
+
+  footer div#first,
+  footer div#second,
+  footer div#third {
+    clear: both;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    text-align: ;
+    padding: 0px 12px 2px 12px;
+    height: auto;
+  }
+
+  footer div#second {
+    text-align: center;
+  }
+
+  footer div#second ul li {
+    margin-right: 10px;
+    line-height: 1.8em;
+  }
+
+  footer div#second a {
+    font-size: 0.8em;
+  }
+
+  footer div#second,
+  footer div#third {
+    margin-top: 20px;
+  }
+
+  footer div#third {
+    padding: 20px 10px;
+    font-size: 0.8em;
+    border-bottom: 0px solid;
+  }
+
+  footer div#third ul li {
+    float: left;
+    width: auto;
+    height: 30px;
+    padding: 4px 8px 4px 8px;
+    margin: 0px 10px 12px 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* This div conta
+}*/
+}
+
+div.admin-indicate-div {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 30px;
+  background: #e36461;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  display: none;
+}
+
+div#admin-status-div {
+  position: fixed;
+  top: 15px;
+  left: 130px;
+  min-width: 150px;
+  height: auto;
+  overflow: auto;
+  margin: 0px auto;
+  color: #fff;
+  z-index: 800;
+  display: none;
+}
+
+div#admin-status-text-div {
+  position: fixed;
+  float: left;
+  min-width: 160px;
+  margin-top: 0px;
+  padding: 6px 12px 6px 9px;
+  border-radius: 30px;
+  border-top-left-radius: 0px;
+  text-align: left;
+  height: auto;
+  font-size: 0.94em;
+  background: #e83939;
+  display: none;
+}
+
+#admin-status-div-small {
+  position: fixed;
+  top: 37px;
+  left: 64px;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0px auto;
+  color: #fff;
+  z-index: 800;
+}
+
+div#admin-status-text-div-small {
+  position: fixed;
+  float: left;
+  width: auto;
+  margin-top: 0px;
+  padding: 6px 14px;
+  border-radius: 30px;
+  border-top-left-radius: 0px;
+  text-align: center;
+  height: auto;
+  font-size: 0.8em;
+  background: #e83939;
+}
+
+@media only screen and (min-width: 600px) {
+  div#admin-status-div-small {
+    display: none;
+  }
+  div#admin-status-text-div-small {
+    display: none;
+  }
+  div#admin-status-div {
+    display: block;
+  }
+  div#admin-status-text-div {
+    display: block;
+  }
+}

@@ -1,0 +1,257 @@
+@media only screen and (min-width: 1px) { 
+    
+/* This is the div within the page's section that houses everything else. */
+#mainBodyWrapper { height: auto; }
+
+/* This div houses the rest of the content. */
+#mainDiv { width: 98%; min-height: 480px; margin: 0% 1% 0% 1%; border: 0px solid; }
+
+/* This is the div that houses the details about the user's profile like pictures and names. */
+/* div#profileHeader { width: 100%; height: 180px; margin-left: 0%; margin-top: 100px; padding: 0px; 
+	box-shadow: 0px 0px 3px #888;} */
+
+/* This is the div that houses names and brief stats pertaining to the user. */
+div#profileDetailsContainer { float: left; width: inherit; height: 180px; position: relative; top: 0px; padding: 10px; }
+
+/* This div holds the user's picture*/
+div#profilePicHolder { float: left; width: auto; height: auto; background: transparent; display: none;  }
+
+/* This div holds the user's picture*/
+div#profilePicHolder_mobile { float: left; width: 100px; height: 100px; margin-top: 0px; background: white; display: block; padding: 0px auto; }
+
+/* This image is the user's picture */
+div#profilePicHolder_mobile img{ position: relative; top: 10px; /*border: 2px solid rgba(102, 62, 60, 0.2);*/ width: 100px; height: 100px; border-radius: 50%; }
+
+div#involvementDiv {
+  display: block;
+    float: left;
+  position: relative;
+    margin-top: 0px;
+  width: 100%;
+  height: auto;
+    line-height: 1em;
+}
+
+div#profileOptions {
+  display: block;
+  position: absolute;
+   top: 146px;
+    left: 0px;
+    margin: 0px;
+ background: #eee;
+  width: 100%;
+  height: 32px;
+  border-top: 1px solid #ececec;
+}
+
+div#profileOptions div {
+  border-right: 1px solid #ddd;
+  border-top: 10px solid transparent;
+  float: left;
+  width: 33.3%;
+  height: 32px;
+  padding-bottom: 0px;
+  text-align: center;
+ background: #f5f5f3;
+  color: #888;
+  font-size: 86%;
+}
+
+div#profileDashBoardContainer{
+  display: none;
+}
+
+div#profileDashBoard { display: none; }
+
+#Name, #Department, #School, #Institution, #phraseSummaryDiv { width: 100%; height: auto; padding: 0px 0px 5px 0px; font-size: 1em; display: none; }
+
+div#Name { width: 100%; height: auto; line-height: 1.6em; padding: 10px 0px 10px 0px; display: block; margin: 0px auto; }
+
+div#Name h1 { font-size: 1.2em; height: auto; }
+
+/* These relate to the profile Details of the user */
+div#profileDetails { float: left; width: 160x; height: auto; font-size: 0.9em; min-width: 40%; position: absolute; left: 120px;}
+
+div#profileDetails h1{ font-size: 1.2em; }
+
+div#profileDetails h3 { clear: both; float: left; width: 100px; padding-right: 10px; font-size: 1.0em; margin-bottom: 5px;}
+
+div#profileDetails span { float: left; display: inline-block; width: 62%; margin-bottom: 5px;}
+
+div#profileSlate { clear: both; width: 100%; height: 361px; margin: 0px; border: 0px solid #ddd;  background: transparent; }
+
+div#postList { width: 100%; margin: 28.8% 0% 0% 0%; border: 0px solid; background: transparent;}
+
+div#postList div { border: 1px solid #efefef; margin-bottom: 7px; height: auto; background: #fff; 
+  border: 1px solid #e4e4e4;
+  -mz-box-shadow: 0px 2px 2px #f3f3f3;
+  -webkit-box-shadow: 0px 2px 2px #f3f3f3;
+  -moz-box-shadow: 0px 2px 2px #f3f3f3;
+  -o-box-shadow: 0px 2px 2px #f3f3f3;
+  box-shadow: 0px 2px 2px #f3f3f3;
+}
+
+div#quickFeeds {
+  clear: both;
+  width: 96%;
+  height: 180px;
+  margin-top:10px;
+  margin-left: 2%;
+  background: #FFFFFF;
+  color: #888;
+	font-size: 0.834em;
+  border: 1px solid #e1e1e1;
+  position: relative;
+  top: -30px;
+  display: none;
+}
+
+#firstDiv, #secondDiv, #thirdDiv{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 6px -1px;
+  padding: 10px 10px 20px 10px;
+  background: #fff;
+  border: 0px solid #e8e8e8;
+  border-left: 0px solid #ddd;
+}
+
+#firstDiv {
+  border-top: 0px solid;
+  border-right: 0px solid;
+} 
+
+
+/* This is the image within the div mentined above */
+.thumbnail_others img { box-shadow: 0px 4px 6px #111; width: 40px;}
+
+/* This div holds the user's picture*/
+/*div#profilePicHolder { float: left; margin: 0px 0px; background: transparent; }
+
+#otherMembers, #quickFeeds, footer, #divBadges { display: none; }
+
+/* This div holds the user's picture and stats 
+#profileDetailsContainer { clear:both; width: 100%; }
+
+/* This div holds the user's picture */
+div#profilePicHolder { float: left; width: auto; height: auto; background: transparent; }
+
+/* This image is the user's picture */
+div#profilePicHolder img{ border: 1px solid rgba(233, 233, 233, 0.9); box-shadow: 0px 0px 2px rgba(200, 285, 285, 0.8); }
+
+/* This happens when the user hovers over the user picture */
+div#profilePicHolder:hover img{ cursor: pointer; transition: 2s; }
+
+/* These relate to the profile Details of the user */
+div#profileDetails { float: left; height: 200px; font-size: 0.9em; min-width: 40%; }
+div#profileDetails h1{ font-size: 1.4em; }
+
+#Name, #Department, #School, #Institution, #phraseSummaryDiv { width: 100%; height: 30px; padding-left: 20px; }
+*/
+
+/* Stats of number of posts and comments. */
+
+#helpDiv { display: none; }
+#mobileView_helpDiv { display: block; }
+
+/* This div contains the menu that provides the user options for logging in and getting help. */
+#mobileView_helpDiv { clear: none; width: 100%; height: 35px; background-color: #454530; border-top: 1px solid #bbbb33; box-shadow: 1px 1px 2px #999; }
+
+/* These are the list items that contain the menu items. */
+#mobileView_helpDiv ul li { width: 25%; float: left; border-right: 1px solid #332; height: 30px; padding: 0px; }
+
+#mobileView_helpDiv ul li:nth-child(3) { height: 30px; }
+
+/* These are the menu items contained within the list items mentioned above. */
+#mobileView_helpDiv > ul > li > a  { height: inherit; font-size: 80%; padding-top: 0px; color: #fff; text-align: center; }
+
+#mobileView_helpDiv ul li a {
+  height: inherit; position: relative; top: -2px;
+}
+
+/* This div contains helpful links to the 'Contact Us' and 'FAQ' pages. */ 
+#helpMatters { width: 160px; height: 122px; position: absolute; top: -61.3%; left: 0.6%; padding: 0px; border: 1px solid #cfcfcf; }
+
+#helpMatters ul li { width: 100%; height: 40px; padding: 0px; text-align: center; border: 0px solid; }
+
+#helpDiv ul li:hover { background-color: #cd8d58; }
+
+#helpMatters ul li a { padding-top: 12px; height: 40px; padding-bottom: 6px; font-size: 0.9em; color: #444; position: relative; top: 0px; border-right: 0px solid; }
+
+#helpMatters ul li a:hover { background-color: #fcfca8; }
+
+#mobileView_helpDiv ul li:hover { /* background-color: #cd8d58; */  background: none; }
+
+
+div#mobileViewMenu {
+  display: block;
+  height: 30px;
+  background: #adadad;
+  position: fixed;
+  top: 105px;
+}
+
+footer {
+  position: relative; 
+  top: -10px;
+}
+}
+
+@media only screen and (min-width: 320px) { 
+/* div#profileHeader {
+  width: 96%;
+	height: 220px;
+  margin-top: 0px;
+    margin-left: 2%;
+    margin-bottom:  22px;
+    margin-right: 2%;
+  background: #fff;
+  padding: 24px 10px 10px 10px;
+  border: 1px solid #ddd;
+	box-shadow: 0px 0px 29px #888;
+ } */
+
+/* This div holds the user's picture
+div#profilePicHolder { float: left; margin: 0px 0px; background: transparent; }
+
+#otherMembers, #quickFeeds, footer, #divBadges { display: none; }
+
+/* This div holds the user's picture and stats 
+#profileDetailsContainer { clear:both; width: 100%; }
+
+/* This div holds the user's picture
+div#profilePicHolder { float: left; width: auto; height: auto; background: transparent; }
+
+/* This image is the user's picture 
+div#profilePicHolder img{ border: 1px solid rgba(233, 233, 233, 0.9); box-shadow: 0px 0px 2px rgba(200, 285, 285, 0.8); }
+
+/* This happens when the user hovers over the user picture 
+div#profilePicHolder:hover img{ cursor: pointer; transition: 2s; }
+
+/* These relate to the profile Details of the user 
+div#profileDetails { float: left; height: 200px; font-size: 0.9em; min-width: 40%; }
+div#profileDetails h1{ font-size: 1.4em; }
+
+#Name, #Department, #School, #Institution, #phraseSummaryDiv { width: 100%; height: 30px; padding-left: 20px; }
+}
+
+@media only screen and (min-width: 480px) {
+/* #mainDiv{
+  float: left;
+  width: 66.5%;
+  height: auto;
+	margin: 10px 0px 0px 1.8%;
+  padding: 0px;
+	/* background: #f8f8f8; */
+/*	color: #555;
+  font-family: Raleway-Regular, sans-serif;
+  border-radius: 0px;
+  border: 2px solid #ddd; */
+} 
+
+/* This div is the main area where user carries out operations */
+/*div#profileSlate { float: left; width: 76.0%; height: auto; position: relative; left: 0.6%; } */
+
+/*div#profileDashBoardContainer { width: 23%; } */
+}

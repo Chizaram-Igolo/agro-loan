@@ -1,0 +1,895 @@
+/* This is the page's body. */
+body { height: auto; background: #fbfbf3; font-size: 100%; }
+
+/* This is the page's section. */
+#section { height: auto; }
+
+#mainDiv { min-height: 428px; }
+
+/* These reset the margins and paddings of heading tags. */ 
+h1, h2, h3 {margin: 0px; padding: 0px; }
+
+/* This div holds the user's picture and details and extra details */
+div#profileHeader {
+  position: relative;
+  float: left;
+  width: 96%;
+  min-width: 490px;
+  height: 220px;
+  margin: 48px 2% 22px 2%;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  -mz-box-shadow: 0px 0px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px #ddd;
+  -moz-box-shadow: 0px 0px 2px #ddd;
+  -o-box-shadow: 0px 0px 2px #ddd;
+  box-shadow: 0px 0px 2px #ddd;
+ }
+ 
+ .profile-details-div {
+	width: 100%; height: auto; 
+padding: 10px 20px 0px 20px; 
+margin-bottom: 0px; 
+ margin-top: 10px;
+font-size: 1.12em; 
+}
+ 
+
+/* These relate to the profile Details of the user */
+div#profileDetails { float: left; height: auto; font-size: 0.9em; }
+	 
+@media only screen and (max-width: 600px) {
+div#profileHeader {
+  float: left;
+  height: 180px;
+  margin: 48px 2% 22px 2%;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  -mz-box-shadow: 0px 0px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px #ddd;
+  -moz-box-shadow: 0px 0px 2px #ddd;
+  -o-box-shadow: 0px 0px 2px #ddd;
+  box-shadow: 0px 0px 2px #ddd;
+ }
+ 
+ 
+div#profilePicHolder { float: left; width: 100px; height: 100px; background: transparent; }
+
+/* This image is the user's picture */
+div#profilePicHolder img{ border: 1px solid rgba(233, 233, 233, 0.9); box-shadow: 0px 0px 2px rgba(200, 285, 285, 0.8);  border-radius: 50%; width: 140px; height: 140px; }
+
+.profile-details-div {
+	width: 100%; height: auto; 
+padding: 2px 20px 0px 20px; 
+margin-bottom: 0px; 
+ margin-top: 10px;
+font-size: 1.12em; 
+}
+
+.profile-details-div {
+font-size: 1.0em; 
+}
+
+/* These relate to the profile Details of the user */
+div#profileDetails { float: left; height: auto; font-size: 0.9em; }
+
+}
+ 
+div#mobileViewMenu {
+  height: 30px;
+  display: none;
+}
+
+/* This div holds the user's picture and stats */
+#profileDetailsContainer { 
+  float: left; 
+  width: 100%; 
+  min-width: 100px;
+}
+
+/* This div holds the user's picture*/
+div#profilePicHolder { float: left; width: auto; height: auto; background: transparent; }
+
+/* This div holds the user's picture for mobile dipslay. */
+div#profilePicHolder_mobile { float: left; width: auto; height: auto; background: transparent; display: none; }
+
+/* This image is the user's picture */
+div#profilePicHolder img{ border: 1px solid rgba(233, 233, 233, 0.9); box-shadow: 0px 0px 2px rgba(200, 285, 285, 0.8);  border-radius: 50%; }
+
+/* This happens when the user hovers over the user picture */
+div#profilePicHolder:hover img{ cursor: pointer; transition: 2s; }
+
+div#profileDetails h1{ font-size: 1.4em; }
+
+div#profileDetails h3 { clear: both; float: left; width: auto; padding-right: 10px; }
+
+div#profileDetails span { float: left; width: auto; }
+
+#profileHeaderMenu {
+position: absolute;
+width: auto;
+height: 40px;
+bottom: 0%;
+right: 0px;
+overflow: hidden; padding: 0px;
+}
+
+#profileHeaderMenu ul {
+    padding: 0px;
+margin: 0px;
+width: 100%;
+height: 40px;
+}
+
+#profileHeaderMenu ul li{
+float: left;
+width: auto;
+padding: 0px 8px;
+height: 40px;
+margin: 0px;
+border-right: 1px solid #ddd;
+border-top: 10px solid transparent;
+border-bottom: 2px solid transparent;
+
+padding: 0px; 
+border-bottom: 3px solid #88d; 
+position: relative;
+}
+
+#profileHeaderMenu ul li a {
+  display: inline-block; 
+  color: #888; 
+  padding: 0px 10px; 
+  text-decoration: none;
+}
+
+#Name, #Department, #School, #Institution, 
+#phraseSummaryDiv, #location { 
+width: 100%; height: auto; 
+padding: 10px 20px 20px 20px; 
+margin-bottom: 0px; }
+
+#Name {width: auto; 
+padding: 10px 20px 10px 20px;
+ margin-top: 10px; font-size: 1.12em; }
+
+#divBadges{ float: left; width: 30%; height: 120px; position: relative; left: 12px; }
+
+#phraseSummaryDiv  {
+  overflow: auto;
+    line-height: 1.4em; text-align: left;
+  padding: 10px 20px 10px 20px; 
+}
+
+#location {
+  padding: 10px 20px 10px 20px; 
+}
+    
+#userLevel {
+  width: 100%;
+	height: 40px;
+	background: #9f4533;
+	color: #fff;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+#eduAchievements{
+  width: 70%;
+	height: 40px;
+	background: #9f9533;
+	color: #fff;
+	padding-left: 10px;
+	position: absolute;
+	right: 0px;
+}
+
+#userLevel span, #eduAchievements span {
+  margin-top: 4px;
+	position: absolute;
+	right: 20px;
+}
+
+.rimCut{
+  float: left;
+  width: 28px;
+	height: 29px;
+	position: absolute;
+	top: 6px;
+	left: -14px;
+	background: #fff;
+	border-right: 1px #ccc solid;
+	border-top: 1px #ccc solid;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+
+.rim{
+  float: left;
+  width: 100%;
+	height: 32px;
+	position: relative;
+	top: 4px;
+	left: 0px;
+	border: 1px dashed #c4c4ad;
+	border-left: 2px dashed transparent;
+}
+
+#mainDiv{
+  clear: both;
+  float: left;
+  width: 96%;
+  min-width: 600px;
+  height: auto;
+	margin: 20px 2% 50px 2%;
+  padding: 0px;
+	/* background: #f8f8f8; */
+	color: #555;
+  font-family: Raleway-Regular, sans-serif;
+  border-radius: 0px;
+  border: 0px solid #ddd;
+}
+
+@media only screen and (min-width: 600px) {
+  #mainDiv{
+  clear: both;
+  float: left;
+  width: 70%;
+  min-width: 620px;
+  height: auto;
+	margin: 20px 15% 50px 1.8%;
+  padding: 0px;
+	/* background: #f8f8f8; */
+	color: #555;
+  font-family: Raleway-Regular, sans-serif;
+  border-radius: 0px;
+  border: 0px solid #ddd;
+}
+
+/* This image is the user's picture */
+div#profilePicHolder img{ border: 1px solid rgba(233, 233, 233, 0.9); box-shadow: 0px 0px 2px rgba(200, 285, 285, 0.8);  border-radius: 50%; width: 200px; height: 200px; }
+
+}
+
+div.content_div {
+  clear: both;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  margin-bottom: 30px;
+  -mz-box-shadow: 0px 2px 2px #f3f3f3;
+  -webkit-box-shadow: 0px 2px 2px #f3f3f3;
+  -moz-box-shadow: 0px 2px 2px #f3f3f3;
+  -o-box-shadow: 0px 2px 2px #f3f3f3;
+  box-shadow: 0px 2px 2px #f3f3f3; 
+  color: #555;
+  overflow: hidden;
+}
+
+.first_heading {
+  height: 34px;
+  padding: 8px 10px;
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  -mz-box-shadow: 0px 0px 2px #f3f3f3;
+  -webkit-box-shadow: 0px 0px 2px #f3f3f3;
+  -moz-box-shadow: 0px 0px 2px #f3f3f3;
+  -o-box-shadow: 0px 0px 2px #f3f3f3;
+  box-shadow: 0px 0px 2px #f3f3f3; 
+  color: #555;  
+}
+
+#no_content_paragraph {
+width: 100%;
+text-align: center;
+height: 84px;
+padding-top: 0px;
+font-size: 1.6em;
+color: #ccc;
+}
+
+#no_content_paragraph:hover {
+opacity: 0.9;
+background: #fcfbfb;
+}
+
+#mobileView_helpDiv {
+  display: none;
+}
+
+div#profileDashBoardContainer {
+  clear: both;
+	float: left;
+	width: 19.1%;
+  height: 0;
+  margin: 0px;
+  font-size: 0.8em;
+  background: #f8f8f8;
+}
+
+div#profileDashBoard{ width: 0%; height: 380px; background: #ffffff; padding: 30px 0px;
+ border: 1px solid #dfdfdf;
+  -mz-box-shadow: 0px 0px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px #ddd;
+  -moz-box-shadow: 0px 0px 2px #ddd;
+  -o-box-shadow: 0px 0px 2px #ddd;
+  box-shadow: 0px 0px 2px #ddd;
+  display: none;
+}
+
+div#profileDashBoard ul li{ width: 80%; height: 36px; margin-left: 20px; }
+
+#profileDashBoard ul li a {
+  display: inline-block; 
+	width: auto; 
+	height: inherit;
+	padding: 4px 4px 4px 40px;
+	text-decoration: none;
+}
+
+#profileDashBoard a { display: inline-block; width: 24px; position: relative; top: 4px; }
+ 
+/* This div is the main area where user carries out operations */
+div#profileSlate { float: left; width: 100%; height: auto; position: relative; left: 0%; }
+
+#firstDiv, #secondDiv, #thirdDiv{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 0px 3px;
+  padding: 10px 10px 20px 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+#firstDiv {
+  border-top: 0px solid;
+	border-right: 0px solid;
+}
+
+#firstDiv p, #secondDiv p, #thirdDiv p { margin-top: 20px; font-size: 0.9em; }
+
+#secondDiv, #thirdDiv { margin-top: 30px; border-right: 0px solid; }
+
+/* This divs contain the posts */
+div#quickFeeds, div.postList {
+  float: left;
+  width: 98%;
+  height: 180px;
+  margin-top:10px;
+  margin-left: 2%;
+  background: #FFFFFF;
+  color: #888;
+  font-size: 0.834em;
+  border: 1px solid #e1e1e1;
+}
+
+div#quickFeeds a, div.postList a { color: #88e; text-decoration: underline;}
+
+div#quickFeeds h3, div.postList h3 { margin-bottom: 0.58em; }
+
+div#quickFeeds div, div.postList div { width: 100%; height: 50%; padding: 12px; border: 1px solid #e1e1e1; }
+
+div.postList {
+  float: left;
+  width: 98%;
+  height: 180px;
+  margin-top:10px;
+  margin-left: 2%;
+  background: transparent;
+  color: #888;
+  font-size: 0.834em;
+  border: 1px solid #e1e1e1;
+}
+
+div.postList { width: 100%; margin: 4.8% 0% 0% 0%; border: 0px solid; background: transparent;}
+
+div.postList div { border: 1px solid #efefef; margin-bottom: 7px; padding: 20px 15px 20px 15px; height: auto; background: #fff; 
+  border: 1px solid #e4e4e4;
+  -mz-box-shadow: 0px 0px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px #ddd;
+  -moz-box-shadow: 0px 0px 2px #ddd;
+  -o-box-shadow: 0px 0px 2px #ddd;
+  box-shadow: 0px 2px 2px #f3f3f3; color: #555;
+}
+
+div.postList div a { text-decoration: none; font-size: 1.4em;
+}
+
+div.postList div {
+}
+
+div#quickFeeds {
+  float: left;
+  width: 100%;
+    display: block;
+     border: 0px solid; 
+  background: transparent;
+}
+
+div#quickFeeds div {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  -mz-box-shadow: 0px 0px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px #ddd;
+  -moz-box-shadow: 0px 0px 2px #ddd;
+  -o-box-shadow: 0px 0px 2px #ddd;
+  box-shadow: 0px 2px 2px #f3f3f3; color: #555;
+  margin-bottom: 10px;
+}
+
+div#quickFeeds div a {
+  text-decoration: none;
+}
+
+#tourDiv2Hook {
+  position: absolute; 
+	top: 20%; 
+	left: -4%; 
+	height: 50px; 
+	z-index: -200; 
+	width: 50px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+
+#tourDiv2Holder {
+  display: none;
+  position: absolute; 
+	top: 20%; 
+	left: 42%; 
+	z-index: 200;
+}
+
+#tourDiv2 {
+	width: 350px; 
+	height: auto; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px 10px 44px 10px ;
+}
+
+#tourDiv3Holder {
+  height: auto; 
+  display: none;
+  position: absolute; 
+	top: 33%; 
+	left: 23%; 
+	z-index: 300; 
+}
+
+#tourDiv3 {
+	width: 350px; 
+	height: 128px; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+}
+
+#tourDiv4Holder {
+  display: none;
+  position: absolute; 
+	top: 34%; 
+	left: 48%; 
+	z-index: 300; 
+}
+
+#tourDiv5Holder {
+  display: none;
+  position: absolute; 
+	top: 25%; 
+	left: 34%; 
+	z-index: 300; 
+}
+
+.pageNo {
+  position: absolute; 
+	right: 2%; 
+}
+
+#tourDiv4 {
+	width: 350px; 
+	height: 128px; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+}
+
+#tourDiv5 {
+	width: 370px; 
+	height: 188px; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+}
+
+#tourDiv6Holder {
+  display: none;
+  position: absolute; 
+	top: 3%; 
+	left: 70%; 
+	z-index: 300; 
+}
+
+#tourDiv6 {
+	width: 370px; 
+	height: 128px; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+}
+
+#tourDiv7Holder {
+  display: none;
+  position: absolute; 
+	top: 49%; 
+	left: 34%; 
+	z-index: 300; 
+}
+
+#tourDiv7 {
+	width: 370px; 
+	height: 128px; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+}
+
+#tourDiv1 a, #tourDiv2 a, #tourDiv3 a, #tourDiv4 a, #tourDiv5  a, #tourDiv6  a, #tourDiv7  a{
+  display: inline-block;
+	width: auto;
+	height: auto;
+	position: absolute;  
+	right: 2%;
+	padding: 8px 14px;
+	background-color: #4d5a92; 
+  color: #fff;
+	text-decoration: none;
+}
+
+#tourDiv1 a:hover, #tourDiv2 a:hover, #tourDiv3 a:hover, #tourDiv4 a:hover, #tourDiv5  a:hover, #tourDiv6  a:hover, #tourDiv7  a:hover {
+	background-color: #3d6a92; 
+}
+
+#tourDiv1Hook {
+  /* position: absolute; 
+	top: 34%; 
+	left: -3%; 
+	height: 50px; 
+	z-index: -200; 
+	width: 50px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg); */
+    
+    position: absolute; 
+	top: 0%; 
+	left: 44%; 
+	height: 50px; 
+	z-index: -200; 
+	width: 50px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+    
+}
+
+#tourDiv1Holder {
+  /*display: none;
+  position: absolute; 
+	top: 41%; 
+	left: 16%; 	 
+	z-index: 300;*/
+    
+    display: none;
+  position: absolute; 
+	top: 60px; 
+	left: 59%; 
+	z-index: 600;
+}
+
+#tourDiv1 {
+	/* height: 185px; 
+	z-index: 300; 
+	width: 350px; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px; */
+    
+    width: 370px; 
+	height: 185px; 
+	background-color: #4f7ab2; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	z-index: 350px;
+}
+
+/* #tourDiv2Hook, #tourDiv6Hook {
+  position: absolute; 
+	top: -6%; 
+	left: 44%; 
+	height: 50px; 
+	z-index: -200; 
+	width: 50px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+} */
+
+#tourDiv3Hook {
+  position: absolute; 
+	top: 74%; 
+	left: 38%; 
+	height: 50px; 
+	z-index: -200; 
+	width: 50px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+#tourDiv4Hook {
+  position: absolute; 
+	top: 34%; 
+	left: 92%; 
+	height: 40px; 
+	z-index: -200; 
+	width: 40px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+#tourDiv5Hook {
+  position: absolute; 
+	top: 34%; 
+	left: 92%; 
+	height: 40px; 
+	z-index: -200; 
+	width: 40px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	display: none;
+}
+
+#tourDiv7Hook {
+  position: absolute; 
+	top: -4%; 
+	left: 35%; 
+	height: 40px; 
+	z-index: -200; 
+	width: 40px; 
+	background-color: #4975af; 
+	color: #fff; 
+	box-shadow: 0px 0px 1px #999; 
+	padding: 10px;
+	transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+/* This div contains a random display of other members */
+div#otherMembers {
+  float: left;
+  width: 100%;
+  height: 202px;
+  background: #fff;
+  margin-left: 2%;
+  margin-top: 80px;
+  padding: 6px 12%;
+  border: 1px solid #e1e1e1;
+}
+
+/* This divs contains a random display of other members on the site */
+div.thumbnail_others {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 2px;
+  margin-right: 0%;
+  margin-bottom: 6px;
+  background: transparent;
+  font-size: 0.8em;
+  border: 0px solid #222;
+  padding: 0px;
+}
+
+/* This is the image within the div mentined above */
+.thumbnail_others img {width: 100px;
+  height: 100px; border: 1px solid #eee; border-radius: 50%; }
+
+/* This are the names of those random displayed members */
+.name {
+  display: inline-block;
+  float: left;
+  min-width: 100px;
+  overflow: hidden;
+ height: 20px;
+  padding: 2px;
+    position: relative;
+    left: 90%;
+  margin-top: -35px;
+  background: rgba(38, 13, 40, .99);
+  text-align: center;
+  color: #fff;
+  opacity: .8;
+    border-top-right-radius: 120px;
+	
+    border-bottom-right-radius: 120px;
+}
+
+div#footer {
+  position: relative;
+  top: 4em;
+  margin-top: 0em;
+  height: 140px;
+  width: 100%;
+  padding-top: 30px;
+  background: #fff;
+   border: 1px solid #e4e4e4;
+  -mz-box-shadow: 0px 0px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px #ddd;
+  -moz-box-shadow: 0px 0px 2px #ddd;
+  -o-box-shadow: 0px 0px 2px #ddd;
+  box-shadow: 0px 2px 2px #f3f3f3; color: #555;
+}
+
+.no_records {
+ margin-top: 60px; height: auto;
+}
+
+.no_records #background_div {
+display: inline-block;
+float: left;
+width: auto;
+height: 100px;
+background: url('no_posts.png') no-repeat 0px 0px; 
+	background-size: 100px;
+}
+
+.no_records h1 {
+display: inline-block;
+float: left;
+height: auto; color: #aaa; padding-left: 100px; padding-top: 49px; font-size: 1.2em;
+}
+
+.header-div {
+ width: auto;
+ height: auto;
+ margin-bottom:130px;
+}
+
+.logo-div {
+  float: left;
+  width: 240px;
+  height: 108px; 
+  background: url('nirsal-logo.png') no-repeat -30px 0px/100% 100%;	
+}
+
+.tagline-div {
+  float: left;
+  width: auto;
+  margin-left: -20px; 
+}
+
+.tagline-div h2 {
+  text-align: center;
+  font-size: 1.4em;  
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+.tagline-div h3 {
+  text-align: center;	
+  font-size: 1.1em; 
+  margin-top: -40px;
+}
+
+div.clear-float-div {
+  clear: both;	
+}
+
+div.admin-approve-option-div, div.admin-reject-option-div {
+  z-index: 100; 
+  color: #fff;
+}
+
+div.admin-approvedone-option-div, div.admin-rejectdone-option-div {
+  z-index: 100; 
+  color: #fff;
+}
+
+div.admin-approve-option-div:hover, div.admin-reject-option-div:hover, 
+div.admin_flag_request_div:hover, div.admin_unflg_request_div:hover,
+div.admin_delete_request_div:hover, div.admin_block_user_div:hover,
+div.admin_unblk_user_div:hover {
+  cursor: pointer;
+}
+
+p.no_content_paragraph {
+ padding: 15px 0px 0px 0px; 
+ font-size: 100%; 
+ height: auto;
+}
+
+p.no_content_paragraph span {
+ display: inline-block; 
+ width: auto;
+ height: auto;
+ font-size: .76em; 
+ margin: 14px 10px 10px 18px; 
+ background: #ee5a52; 
+ background: #6f8ab2; 
+ color: #fff; 
+ padding: 16px 18px 14px 18px; 
+ }
+
+@media only screen and (max-width: 770px) {
+p.no_content_paragraph span {
+ display: inline-block; 
+  width: auto;
+ font-size: 0.66em; 
+ margin: 18px 10px 0px 10px; 
+ background: #ee5a52; 
+ background: #6f8ab2; 
+ color: #fff; 
+ padding: 16px 8px 14px 8px; 
+ }
+}
+
+@media only screen and (max-width: 500px) {
+p.no_content_paragraph span {
+ display: inline-block; 
+  width: auto;
+ font-size: 0.60em; 
+ margin: 18px 10px 0px 10px; 
+ background: #ee5a52; 
+ background: #6f8ab2; 
+ color: #fff; 
+ padding: 16px 6px 14px 6px; 
+ }
+}

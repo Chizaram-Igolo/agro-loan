@@ -1,0 +1,173 @@
+input[type = "text"], 
+input[type = "email"], 
+input[type = "url"],
+input[type = "password"], 
+input[type = "tel"], 
+input[type = "checkbox"],
+textarea, select
+{
+  width: 350px;
+  height: 30px;
+  text-indent: 10px;
+  color: #555;
+  display: block;
+  margin-top: 0px;
+  text-indent: 4px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #eee;
+  font-family: Raleway-Regular, sans-serif; 
+  font-size: 0.8em;
+}
+textarea{
+  resize: none;
+}
+
+/* Give all input and select elements the same border-radius, and height. */
+input, select {
+  border-radius: 4px;
+  height: 30px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  overflow: hidden;
+  background: url('./selectdown.png') no-repeat 99% 6px; 
+}
+
+
+/* Give all input elements that are buttons this border-radius. */
+input[type="submit"], input[type="button"] { border-radius: 4px; }
+input[type="submit"], input[type="button"] { transition: all .1s ease-in-out;  }
+input[type="submit"]:hover, input[type="button"]:hover {cursor: pointer; }
+
+select option
+{
+  height: 40px;
+  text-indent: 8px;
+  padding: 20px 10px;
+  border: none;
+  outline: none;
+}
+
+select {
+  padding-bottom: 6px;
+}
+
+input[type = "text"]:focus, 
+input[type = "email"]:focus, 
+input[type = "url"]:focus, 
+input[type = "tel"]:focus, 
+input[type = password]:focus, 
+textarea:focus, select:focus
+{
+  border: 1px solid #eec;
+  box-shadow: 0px 0px 2px #ff2;
+  
+}
+
+input [type = "submit"]:hover{
+   cursor: pointer;
+}
+ select:hover
+{
+   cursor: pointer;
+}
+
+
+input[type = "submit"], input[type = "reset"], button, input[type = "button"] {  
+  margin-top: 30px;
+  border: none; 
+  width: 90px; 
+  height: 32px; 
+  color: #fff;
+  font-size: 0.8em;
+  background: #333;
+  background: -o-linear-gradient(top, rgba(40, 43, 40, 1), rgba(40, 45, 40, .9)); transition: all 2s; 
+  background: -webkit-linear-gradient(top, rgba(40, 43, 40, 1), rgba(40, 45, 40, .9)); transition: all 2s; 
+  background: -moz-linear-gradient(top, rgba(40, 43, 40, 1), rgba(40, 45, 40, .9)); transition: all 2s; 
+  background: linear-gradient(to bottom, rgba(40, 43, 40, 1), rgba(40, 45, 40, .9)); transition: all 2s; 
+}
+
+input[type = "submit"]:hover, button, input[type = "button"] {
+cursor: pointer;
+background: -o-linear-gradient(top,  rgba(40, 43, 40, 1), rgba(50, 55, 40, .9));
+background: -webkit-linear-gradient(top,  rgba(40, 43, 40, 1), rgba(50, 55, 40, .9));
+background: -moz-linear-gradient(top,  rgba(40, 43, 40, 1), rgba(50, 55, 40, .9));
+background: linear-gradient(to bottom,  rgba(40, 43, 40, 1), rgba(50, 55, 40, .9));
+ }
+ 
+select
+{
+  width: 80px;
+  float: left;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 13px;
+  border: none;
+}
+
+
+form#signUp,  form#homeSearch
+{
+  float: left;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-top: 30px;
+
+}
+
+form#signUp {
+  width: 350px;
+}
+
+
+label
+{
+  display: inline-block;
+  float: left;
+  width: 200px;
+  margin-top: 3%;
+}
+
+
+#signInForm { padding: 10px; height: inherit; }
+
+#signInForm input[type = "text"], 
+#signInForm input[type = "password"]{
+  font-size: 0.9em;
+  width: 200px; 
+}
+
+#signInForm input[type = "submit"] { margin-top: 0px; margin-left: 110px; font-size: 1em;}
+
+textarea {
+  height: 80px; 
+}
+
+@media screen and (max-width: 320px) {
+  #signUpForm input[type = "text"], 
+#signUpForm input[type = "email"], 
+#signUpForm input[type = "url"],
+#signUpForm input[type = "password"], 
+#signUpForm input[type = "tel"], 
+#signUpForm textarea, #signUpForm select
+{
+ 
+  height: 30px;
+  text-indent: 10px;
+  color: #555;
+  display: block;
+  margin-top: 0px;
+  text-indent: 4px;
+  background-color: #fefefe;
+  border: none;
+   width: 0px; 
+}
+}

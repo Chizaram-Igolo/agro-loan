@@ -1,0 +1,90 @@
+body { height: auto; }
+
+section{
+   width: 100%;
+   height: auto;
+   padding: 0px;
+   margin: 0px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+div#mainDiv {
+  height: auto;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 0px;
+}
+
+div#mainContent {
+  padding: 40px;
+  position: relative;
+  top: 30px;
+}
+
+h1, p { 
+  clear: both;
+}
+
+h3 {
+  clear: both;
+  margin-bottom: 15px;   
+}
+
+table.parTables, table#faqList { width: 100%; border-collapse: collapse;  }
+
+/* table tr:nth-child(odd) { background-color: #889955; color: #fff; }*/
+
+table.parTables tr, table#faqList tr{ background-color: #66af66; color: #fff; }
+
+table.parTables tr td, table#faqList tr td { padding: 10px 20px; font-size: 0.9em; }
+
+table#faqList tr td { border-bottom: 4px solid #559955; }
+
+table.parTables tr td:nth-child(3), table#faqList tr td:nth-child(3) { border-bottom: 0px solid #559955; }
+
+@media only screen and (min-width: 1px) {
+div#mainDiv {
+  height: auto;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+  margin-bottom: 0px;
+}
+
+div#mainContent {
+  padding: 15px;
+  padding-top: 0px;
+  position: relative;
+  top: 0px;
+}
+}
+
+@media only screen and (min-width: 320px) {
+div#mainDiv {
+  height: auto;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+  margin-bottom: 0px;
+}
+
+div#mainContent {
+  padding: 15px;
+  padding-top: 0px;
+}
+}
+
+@media only screen and (min-width: 480px) {
+div#mainDiv {
+  height: auto;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 0px;
+}
+
+div#mainContent {
+  padding: 30px;
+  padding-top: 0px;
+}
+}

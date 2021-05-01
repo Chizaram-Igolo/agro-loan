@@ -1,0 +1,36 @@
+
+				    /* echo "<div class = \"user_profiles\" style = \"position: relative; min-height: 100px;  font-size: 90%; border-bottom: 1px solid #ccc; margin-top: 30px;\">";
+		        $profilePic = "./SchoolBoss_members/" . $friend_username . $friend_id . "/profile_pics/pic01.png"; */
+                
+				/* if (!file_exists($profilePic)) {
+							$profilePic = "./SchoolBoss_members/" . $friend_username . $friend_id . "/profile_pics/pic01.jpg";
+						}
+						if (!file_exists($profilePic)) {
+							$profilePic = "./SchoolBoss_members/default/default_pic.png\"/>";
+						} 
+						echo "<div style = \"float:left; width: auto; height: font-size: 90%; auto; margin-right: 10px;\">";
+						echo "<img src = $profilePic style = \"box-shadow: 0px 0px 4px #444; max-height: 96px; max-width: 96px;\"/>";
+						echo "</div>";
+						echo "<h3>" . $friend_details_array['firstname'] . " " .$friend_details_array['lastname'] . "</h3><br/>";
+		        if (IsSet($friend_details_array['desc_summary'])){
+			       echo "<p style = \"margin-top: -0.4em; line-height: 1.2em\">" . $friend_details_array['desc_summary'] ."</p>";
+			      } 
+				    echo "<div style = \"position: relative; top: 12px;\"><a href = \"./private_message.php?id={$friend_id}\" style = \"display: inline-block; width: auto; text-decoration: none; padding: 5px 8px; background: #5a4; color: #f3f3f3;\">Send Message</a>&nbsp;&nbsp;&nbsp;</div>";*/
+                    
+                    /* echo "<div class = \"user_profiles\" style = \"position: relative; min-height: 100px; font-size: 90%; border-bottom: 1px solid #ccc; margin-top: 30px;\">";
+		    $profilePic = "./SchoolBoss_members/" .$friend_username2 . $friend_id2 . "/profile_pics/pic01.png";
+			
+				if (!file_exists($profilePic)) {
+				  $profilePic = "./SchoolBoss_members/" .$friend_username2 . $friend_id2 . "/profile_pics/pic01.jpg";
+				}
+				if (!file_exists($profilePic)) {
+				  $profilePic = "./SchoolBoss_members/default/default_pic.png\" height = \"96px\" width = \"96px\" style = \"float: left; margin-right: 40px; \"/>";
+				} 
+			  echo "<div style = \"float:left; width: auto; height: font-size: 90%; auto; margin-right: 10px;\">";
+				echo "<img src = $profilePic style = \"box-shadow: 0px 0px 4px #444; max-height: 96px; max-width: 96px;\"/>";
+				echo "</div>";
+				echo "<h3>" . $friend_details_array2['firstname'] . " " .$friend_details_array2['lastname'] . "</h3><br/>";
+				if (IsSet($friend_details_array2['desc_summary'])){
+				 echo "<p style = \"margin-top: -0.4em; line-height: 1.2em\">" . $friend_details_array2['desc_summary'] ."</p>";
+				}
+				echo "<div style = \"position: relative; top: 12px;\"><a href = \"./private_message.php?id={$friend_id2}\" style = \"display: inline-block; width: auto; text-decoration: none; padding: 5px 8px; background: #5a4; color: #f3f3f3;\">Send Message</a>&nbsp;&nbsp;&nbsp;</div>"; */

@@ -1,0 +1,7 @@
+<?xml version = "1.0" ?>
+<choices xml:lang="EN">
+<item value = "Architecture">O Level certification</item>
+<item value = "Quantity Surveying">Bachelor's</item>
+<item value = "Urban and Regional Planning">Master's</item>
+<item value = "Mechanical Engingeering">Doctorate</item>
+</choices>

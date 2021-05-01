@@ -1,0 +1,20 @@
+div.postList { width: 100%; margin: 3.4% 0% 0% 0%; border: 0px solid; background: transparent;}
+
+#right_side_bar {
+  float: left;
+  width: 25%;
+  position: fixed;
+  left: 70%;
+  margin: 2.9% 0% 0% 0%;
+}
+
+div#footer { 
+  position: fixed;
+  top: 1200px;
+}
+
+* {
+  border: 2px solid;
+}
+
+

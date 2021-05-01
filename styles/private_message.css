@@ -1,0 +1,130 @@
+#firstDiv {
+}
+
+div.messageHolderDivOne, div.messageHolderDivTwo {
+  float: left;
+  width: 98%;
+  height: auto;
+  padding: 0px;
+  background: transparent;
+  color: #888;
+  font-size: 0.834em;
+  border: 1px solid #e1e1e1;
+}
+
+div.messageHolderDivOne, div.messageHolderDivTwo { width: 60%; margin: 2.8% 0% 0% 0%; border: 0px solid; background: transparent;}
+
+div.messageHolderDivOne div, div.messageHolderDivTwo div { 
+ margin-bottom: -7px; padding: 10px 0px 20px 0px; height: auto; background: #fff; 
+  border: 1px solid #e4e4e4;
+  -mz-box-shadow: 0px 0px 2px #ddd;
+  -webkit-box-shadow: 0px 0px 2px #ddd;
+  -moz-box-shadow: 0px 0px 2px #ddd;
+  -o-box-shadow: 0px 0px 2px #ddd;
+  box-shadow: 0px 2px 2px #f3f3f3; color: #555;
+}
+
+img#thumbnail_img {
+	display: block; 
+	margin: auto auto; 
+	max-height: 48px; 
+	max-width: 48px;
+}
+
+div.messageHolderDivOne div{
+ /* border-left: 4px solid #bdb; */
+}
+
+div.messageHolderDivTwo div {
+ /* border-left: 4px solid #bbd; */  
+}
+
+.messageHolderDivTwo {
+ position: relative; 
+ right: 0%;
+}
+
+.messageHolderDivOne div, .messageHolderDivTwo div {
+ float:left; 
+ width: 100%;
+ height: auto;
+ margin: 8px 0px;
+ padding: 9px 14px 9px 10px;
+ background:  #fff;
+ font-size: 1.0em;
+ border: 1px solid #e3e3e3;
+}
+
+.messageDateSpan {
+ display: inline-block;
+ clear: both;
+ position: absolute;
+ right: 8px;
+ font-weight: 900;
+}
+
+.messageNameTag {
+ display: inline-block;
+ float: left; 
+ width: auto;  
+ height: inherit;
+ margin-right: 10px;
+ font-weight: 900;
+ font-size: 110%; 
+}
+
+#messageFormDiv {
+ width: 60%; 
+ height: 60px;
+ position: relative; 
+ top: 50px;
+ left: 40%; 
+ font-size: 0.8em;
+ padding: 0px;
+}
+
+#messageFormDiv textarea {
+ width: 100%;
+ padding: 5px;
+ font-size: 1.1em; 
+ border-radius: 2px; 
+ border: 1px solid #ddd;
+ margin-top: -20px;
+}
+
+#messageForm {
+ margin-left: 30%;
+ padding-top: 0px;
+ position: relative; 
+}
+
+#messageForm button {
+ width: 120px;
+ border-radius: 2px;
+}
+
+#friendLinkSpan {
+ display: inline-block; 
+ width: 154px; 
+ margin-top: -8px;
+ margin-right: -5%;
+}
+
+#sendButtonDiv {
+ position: relative; 
+ top: -24px; 
+ left: 66%; 
+ font-size: 1.3em;
+}
+
+.messageHolderDivOne, .messageHolderDivTwo {
+ width: 60%;
+ height: auto; 
+ margin-top: 0px;
+ font-size: 90%; 
+}
+
+.messageHolderDivOne {
+ position: relative; 
+ left: 40%;
+}

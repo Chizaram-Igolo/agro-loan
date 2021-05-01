@@ -1,0 +1,993 @@
+/* This is the page's body. */
+body {
+  height: auto;
+}
+
+/* This is the page's section. */
+section {
+  background-color: #fff;
+  height: auto;
+  z-index: 100;
+}
+
+#collageDiv {
+  height: 120px;
+  background: url("cl_lineartpattern.jpg");
+  opacity: 0.9;
+  margin-top: -50px;
+  border-bottom: 1px solid #cacaca;
+}
+
+/* Theses are the divs that contain splash images for the home page. */
+#backgroundDiv1,
+#backgroundDiv2,
+#backgroundDiv3 {
+  height: 280px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  border-bottom: 8px solid #c4c4c4;
+}
+
+/* This is the first div that contains a background */
+#backgroundDiv1 {
+  /* background: url('./bg_3.png') 50% 50px no-repeat; */
+  height: 326px;
+  background: #4975af;
+  background: -o-linear-gradient(
+    top,
+    rgba(140, 143, 40, 1),
+    rgba(140, 45, 40, 0.8)
+  );
+  transition: all 2s;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(140, 143, 40, 1),
+    rgba(140, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  background: -moz-linear-gradient(
+    top,
+    rgba(140, 143, 40, 1),
+    rgba(140, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  background: linear-gradient(
+    to bottom,
+    rgba(40, 43, 42, 1),
+    rgba(90, 85, 90, 0.9)
+  );
+  transition: all 2s;
+  background: white;
+  opacity: 0.9999;
+  border-bottom: 1px solid #e4e4e4;
+  -mz-box-shadow: 0px 0px 2px #f3f3f3;
+  -webkit-box-shadow: 0px 0px 2px #f3f3f3;
+  -moz-box-shadow: 0px 0px 2px #f3f3f3;
+  -o-box-shadow: 0px 0px 2px #f3f3f3;
+  box-shadow: 0px 0px 2px #f3f3f3;
+  color: #555;
+  /* background: url('./background_022.png') 55% 50px no-repeat; */
+  /* background: url(bg_3_small.png) no-repeat 0px 60px;  */
+  background: -o-linear-gradient(
+    top,
+    rgba(20, 30, 20, 1),
+    rgba(40, 45, 30, 0.8)
+  );
+  transition: all 2s;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(20, 30, 20, 1),
+    rgba(40, 45, 30, 0.8)
+  );
+  transition: all 2s;
+  background: -moz-linear-gradient(
+    top,
+    rgba(20, 30, 20, 1),
+    rgba(40, 45, 30, 0.8)
+  );
+  transition: all 2s;
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 30, 20, 1),
+    rgba(40, 45, 30, 0.8)
+  );
+  transition: all 2s;
+  margin-top: 0px;
+}
+
+#div-back-design-1,
+#div-back-design-2,
+#div-back-design-8,
+#div-back-design-9 {
+  display: none;
+}
+
+#div-back-design-8,
+#div-back-design-9 {
+  display: none;
+}
+
+#div-back-design-8 {
+  display: none;
+}
+
+#div-back-design-9 {
+  display: none;
+}
+
+#div-back-design-3,
+#div-back-design-4,
+#div-back-design-5,
+#div-back-design-6,
+#div-back-design-7 {
+  display: none;
+}
+
+#div-back-design-3,
+#div-back-design-4,
+#div-back-design-5,
+#div-back-design-6,
+#div-back-design-7 {
+  display: none;
+}
+
+#center-div-back-design {
+  display: none;
+}
+
+/* This div contains the register form and the home search form. */
+#homeSplash {
+  height: 334px;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  border-bottom: 0px solid #cdcdcd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="tel"],
+textarea,
+select {
+  width: 30px;
+  height: 30px;
+  text-indent: 10px;
+  color: #555;
+  display: block;
+  margin-bottom: 0px;
+  text-indent: 4px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #eee;
+  font-size: 1.8em;
+}
+
+.tip {
+  font-family: Calibri, Arial, san-serif;
+  font-size: 0.8em;
+  margin-top: -4px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #ddd;
+}
+
+.tip:nth-child(odd) {
+  font-size: 0.8em;
+  margin-top: -8px;
+}
+
+#signUpButtonDiv {
+  padding-top: 8px;
+  margin-bottom: 16px;
+}
+
+#signUpButton {
+  margin-top: 10px;
+  font-size: 94%;
+}
+
+#signUpButtonDiv,
+#signUpButton {
+  width: 100%;
+}
+
+#register {
+  /* width: 25%;
+  height: auto;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  top: 24%;
+  left: 73%; */
+  font-family: Raleway-Regular, sans-serif;
+  font-size: 110%;
+  background: #a05943;
+  background: -o-linear-gradient(
+    top,
+    rgba(140, 143, 40, 1),
+    rgba(140, 45, 40, 0.8)
+  );
+  transition: all 2s;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(140, 143, 40, 1),
+    rgba(140, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  background: -moz-linear-gradient(
+    top,
+    rgba(140, 143, 40, 1),
+    rgba(140, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  background: linear-gradient(
+    to bottom,
+    rgba(140, 143, 40, 1),
+    rgba(140, 45, 40, 0.9)
+  );
+  transition: all 2s;
+  color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0px 8px #888;
+  z-index: 100;
+}
+
+#signUpForm {
+  z-index: 300;
+}
+
+#searchForHome {
+  margin-top: 18px;
+  width: auto;
+  padding: 0px 8px;
+  height: 42px;
+  font-size: 94%;
+}
+
+#signUpForm {
+  padding: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#signUpForm input[type="text"],
+#signUpForm input[type="email"],
+#signUpForm input[type="password"],
+#signUpForm input[type="tel"],
+#signUpForm select,
+#lodgeSearchForm select {
+  font-size: 0.8em;
+  width: 100%;
+  height: 38px;
+}
+
+#signUpButton {
+  height: 48px;
+}
+#signUpForm select {
+  margin-top: -6px;
+}
+
+form select {
+  padding-top: 4px;
+}
+
+#signUpForm #day {
+  width: 60px;
+  margin-bottom: 22px;
+}
+
+form#signUpForm #sex {
+  width: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+}
+
+#getStarted {
+  width: 124px;
+  height: 34px;
+  font-size: 1em;
+  margin-left: 6px;
+  margin-top: 31px;
+}
+
+#signUpForm #month {
+  width: 70px;
+}
+
+#signUpForm #year {
+  width: 70px;
+}
+
+#signUpForm label {
+  clear: both;
+  display: block;
+  height: 20px;
+  width: 340px;
+  margin-top: -14px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  color: #ff0;
+}
+
+.buttons {
+  clear: both;
+  height: 10px;
+  width: inherit;
+  padding-left: 260px;
+}
+
+#signUpForm .buttons {
+  position: relative;
+  top: -30px;
+  left: -10px;
+}
+
+#philosophySplash {
+  border-top: 0px solid #ccc;
+  position: relative;
+  top: 0px;
+  margin: 30px auto;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  height: 160px;
+  padding: 0px 0px 50px 0px;
+  background: #fffdfd;
+  z-index: -100;
+  color: #454545;
+}
+
+h2 {
+  font-family: Raleway-ExtraLight;
+  font-size: 1.8em;
+}
+
+#philosophySplash p {
+  width: 45%;
+  margin: 20px auto;
+  margin-left: 25%;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#philosophySplash h2 {
+  height: auto;
+  width: 80%;
+  margin: 6px auto;
+  margin-left: 8%;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 2em;
+  background: transparent;
+  text-align: center;
+  font-family: Raleway-ExtraLight;
+}
+
+span#termsTip {
+  font-size: 0.6em;
+}
+
+strong.highlight {
+  font-family: Khula-Light;
+  color: #b0cf20;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 1px) {
+  /* This div contains the quick sign up form. */
+  #register {
+    width: 96%;
+    position: relative;
+    top: 15%;
+    margin: 40px auto 0px auto;
+    font-size: 90%;
+  }
+
+  /* These are the input elements present on the sign up form. */
+  #register input[type="text"],
+  #register input[type="email"],
+  #register input[type="password"],
+  #register input[type="tel"] {
+    font-size: 90%;
+  }
+
+  /* This is the sign up button on the sign up form. */
+  #register input[type="submit"] {
+    font-size: 110%;
+  }
+
+  /* This span tag contains some text with a brief acknowledgement of the terms and conditions. */
+  #register span#termsTip {
+    font-size: 0.8em;
+  }
+
+  /* This div contains a text briefly detailing the philosopy of the company. */
+  #philosophySplash {
+    position: relative;
+    top: 0px;
+    height: auto;
+    padding: 0px 15px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+  }
+
+  #philosophySplash h2 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4em;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    position: relative;
+    top: 0px;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  #register {
+    position: relative;
+    top: 20%;
+    width: 330px;
+    font-size: 90%;
+  }
+}
+
+/* @media only screen and (min-width: 480px) {
+ 
+#register {
+  width: 330px;
+  position: relative;
+  top: 20%;
+  font-size: 90%;
+}
+
+#register input[type = "text"], 
+#register input[type = "email"], 
+#register input[type = "password"]  {
+	font-size: 90%;
+}
+
+#register input[type = "submit"] {
+  font-size: 110%;
+}
+
+#register span#termsTip {
+  font-size: .8em;
+}
+
+#philosophySplash {
+ position: relative;
+ top: 0px;
+ height: auto;
+ padding: 0px 15px;
+ border-top: 2px solid #ccc;
+}
+
+#philosophySplash h2 {
+ font-size: 1.4em;
+  height: auto;
+}
+
+#philosophySplash p {
+ position: relative;
+ top: 10px;
+ width: 100%;
+ height: auto;
+ font-size: 1.0em;
+}
+
+#philosophySplash h2 { width: 100%; height: auto; margin: 0px 0px 0px 0px; font-size: 1.4em; }
+
+#philosophySplash p { width: 100%; height: auto; margin: 40px 0px 0px 0px; position: relative; top: 0px; font-size: 1.0em; line-height: 1.8em;}
+
+} */
+
+@media only screen and (min-width: 420px) {
+  #register {
+    width: 330px;
+    position: relative;
+    top: 20%;
+    font-size: 90%;
+  }
+
+  #register input[type="text"],
+  #register input[type="email"],
+  #register input[type="password"],
+  #register input[type="tel"] {
+    font-size: 90%;
+  }
+
+  #register input[type="submit"] {
+    font-size: 110%;
+  }
+
+  #register span#termsTip {
+    font-size: 0.8em;
+  }
+
+  #philosophySplash {
+    position: relative;
+    top: 0px;
+    height: auto;
+    padding: 0px 15px;
+    border-top: 2px solid #ccc;
+  }
+
+  #philosophySplash h2 {
+    font-size: 1.4em;
+    height: auto;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+  }
+
+  #philosophySplash h2 {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    font-size: 1.4em;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  #register input[type="text"],
+  #register input[type="email"],
+  #register input[type="password"],
+  #register input[type="tel"] {
+    font-size: 90%;
+  }
+
+  #register input[type="submit"] {
+    font-size: 110%;
+  }
+
+  #register span#termsTip {
+    font-size: 0.8em;
+  }
+
+  #philosophySplash {
+    position: relative;
+    top: 0px;
+    height: auto;
+    padding: 0px 15px;
+    border-top: 2px solid #ccc;
+  }
+
+  #philosophySplash h2 {
+    font-size: 1.4em;
+    height: auto;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+  }
+
+  #philosophySplash h2 {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    font-size: 1.4em;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #register {
+    position: relative;
+    top: 18%;
+    font-size: 90%;
+  }
+
+  #register input[type="text"],
+  #register input[type="email"],
+  #register input[type="password"],
+  #register input[type="tel"] {
+    font-size: 90%;
+  }
+
+  #register input[type="submit"] {
+    font-size: 110%;
+  }
+
+  #register span#termsTip {
+    font-size: 0.8em;
+  }
+
+  #philosophySplash {
+    position: relative;
+    top: 0px;
+    height: auto;
+    padding: 0px 15px;
+    border-top: 2px solid #ccc;
+  }
+
+  #philosophySplash h2 {
+    font-size: 1.4em;
+    height: auto;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+  }
+
+  #philosophySplash h2 {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    font-size: 1.4em;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #div-back-design-3,
+  #div-back-design-4,
+  #div-back-design-5,
+  #div-back-design-6,
+  #div-back-design-7 {
+    display: block;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background: #555;
+  }
+
+  #div-back-design-3,
+  #div-back-design-4,
+  #div-back-design-5,
+  #div-back-design-6,
+  #div-back-design-7 {
+    float: left;
+    width: 6.6%;
+    min-width: 80px;
+    height: 230px;
+    position: relative;
+    top: 92px;
+    /*left: 240px;*/
+    margin-left: 0px;
+  }
+
+  #center-div-back-design {
+    display: block;
+    position: relative;
+    width: 400px;
+    margin: 0px auto;
+    opacity: 0.6;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  /* This div contains the quick sign up form. */
+  #register {
+    position: relative;
+    top: 20%;
+    font-size: 90%;
+  }
+
+  #register input[type="text"],
+  #register input[type="email"],
+  #register input[type="password"],
+  #register input[type="tel"] {
+    font-size: 90%;
+  }
+
+  #register input[type="submit"] {
+    font-size: 110%;
+  }
+
+  #register span#termsTip {
+    font-size: 0.8em;
+  }
+
+  #philosophySplash h2 {
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+    font-size: 1.4em;
+  }
+
+  #philoSubjectSplash {
+    clear: both;
+    position: relative;
+    top: 390px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #div-back-design-1,
+  #div-back-design-2,
+  #div-back-design-8,
+  #div-back-design-9 {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 200px;
+    background: #fff;
+    position: relative;
+    top: 125px;
+    left: 50px;
+    margin-left: 0px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background: #555;
+    opacity: 0.5;
+  }
+
+  #div-back-design-2 {
+    float: left;
+    width: 80px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 11%;
+    margin-left: 0px;
+  }
+
+  #div-back-design-8,
+  #div-back-design-9 {
+    float: left;
+    width: 80px;
+    height: 200px;
+    background: #fff;
+    position: relative;
+    top: 125px;
+    left: 5%;
+    margin-left: 0px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background: #555;
+  }
+
+  #div-back-design-8 {
+    float: left;
+    width: 80px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 7%;
+    margin-left: 0px;
+  }
+
+  #div-back-design-9 {
+    float: left;
+    width: 80px;
+    height: 200px;
+    background: #fff;
+    position: relative;
+    top: 125px;
+    left: 14%;
+    margin-left: 0px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background: #555;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #register {
+    position: relative;
+    top: 25%;
+    width: 380px;
+    height: 330px;
+    font-size: 100%;
+  }
+
+  #register input[type="text"],
+  #register input[type="email"],
+  #register input[type="password"],
+  #register input[type="tel"] {
+    font-size: 100%;
+  }
+
+  #register input[type="submit"] {
+    font-size: 110%;
+  }
+
+  #register span#termsTip {
+    font-size: 0.9em;
+  }
+
+  #philosophySplash {
+    position: relative;
+    top: 0px;
+    height: auto;
+    padding: 0px 15px;
+    border-top: 2px solid #ccc;
+  }
+
+  #philosophySplash h2 {
+    font-size: 1.4em;
+    height: auto;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+  }
+
+  #philosophySplash h2 {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    font-size: 1.4em;
+  }
+
+  #philosophySplash p {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  #div-back-design-8 {
+    float: left;
+    width: 80px;
+    height: 250px;
+    position: relative;
+    top: 70px;
+    left: 13%;
+    margin-left: 0px;
+  }
+
+  #div-back-design-9 {
+    float: left;
+    width: 80px;
+    height: 200px;
+    background: #fff;
+    position: relative;
+    top: 125px;
+    left: 20%;
+    margin-left: 0px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background: #555;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #div-back-design-1,
+  #div-back-design-2,
+  #div-back-design-8,
+  #div-back-design-9 {
+    display: none;
+  }
+}
+
+div#errorBasket {
+  width: 9%;
+  position: absolute;
+  top: -38px;
+  left: 0px;
+  margin: 0px 0px;
+  z-index: 400;
+}
+
+div#errorDivAnchor {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: rotate(-138deg);
+  -webkit-transform: rotate(-138deg);
+  -moz-transform: rotate(-138deg);
+  -o-transform: rotate(-138deg);
+  box-shadow: 1px 1px 2px #ccc;
+  display: none;
+}
+
+div#errorDiv {
+  width: 270px;
+  height: auto;
+  font-size: 110%;
+  border-left: 12px solid #f55;
+  line-height: 1.4em;
+  padding: 12px 4px 12px 8px;
+  font-size: 0.9em;
+  background: #fff;
+  color: #ff5454;
+  box-shadow: 0px 2px 10px #b4b4b4;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  border-top: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 300px) {
+  div#errorDiv {
+    max-width: 260px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  div#errorDiv {
+    max-width: 240px;
+  }
+}
+
+@media only screen and (max-width: 260px) {
+  div#errorDiv {
+    max-width: 220px;
+  }
+}
+
+span#label-span {
+  float: left;
+  width: auto;
+  display: block;
+  position: relative;
+  top: 0px;
+  height: auto;
+  float: left;
+  color: #666;
+  font-size: 1em;
+  padding: 0px;
+}
+
+div#errorMessage {
+  float: left;
+  width: auto;
+  position: relative;
+  top: 0px;
+  padding-left: 2px;
+  height: auto;
+  font-size: 1.1em;
+}
+
+.tip a.index-links {
+  text-decoration: none;
+  color: #eeeecc;
+  font-size: 0.9em;
+}

@@ -1,0 +1,132 @@
+div.content_div {
+  clear: both;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  margin-bottom: -26px;
+  margin-top: 30px;
+  padding: 14px 23px;
+  text-align: center;
+  -mz-box-shadow: 0px 2px 2px #f3f3f3;
+  -webkit-box-shadow: 0px 2px 2px #f3f3f3;
+  -moz-box-shadow: 0px 2px 2px #f3f3f3;
+  -o-box-shadow: 0px 2px 2px #f3f3f3;
+  box-shadow: 0px 2px 2px #f3f3f3; 
+  color: #555;
+  overflow: hidden;
+}
+
+div.postList {
+  float: left; 
+  width: 100%;
+  height: 100px; 
+  margin: 3.4% 0% 0% 0%; 
+  border: 1px solid;
+  background: #fff;
+  padding: 0px 0px 30px 0px;
+  border: 1px solid #e4e4e4;
+  margin-bottom: -13px;
+  -mz-box-shadow: 0px 2px 2px #f3f3f3;
+  -webkit-box-shadow: 0px 2px 2px #f3f3f3;
+  -moz-box-shadow: 0px 2px 2px #f3f3f3;
+  -o-box-shadow: 0px 2px 2px #f3f3f3;
+  box-shadow: 0px 2px 2px #f3f3f3; 
+}
+
+div.postList div.posseRequestDiv {
+  height: 100%; 
+  float: left; 
+  width: 150px;  
+  border: 0px solid; 
+  padding: 30px 0px 0px 20px;
+  box-shadow: 0px 0px 0px #000;
+}
+
+div.postList div.posseRequestDiv a.userProfileLink {
+  display: inline-block; 
+  height: auto;
+}
+
+div.postList div.posseRequestDiv div.thumbnail_others {
+  width: 48px; 
+  height: 48px; 
+  padding: 0px; 
+  float: left; 
+  position: relative; 
+  top: -6px; 
+  margin-right: 10px;
+  border: 0px solid; 
+  box-shadow: 0px 0px 0px #000; 
+  background: transparent;
+}
+
+span#requestName {
+  float: left;
+  width: auto; 
+  text-align: left; 
+  display: inline-block; 
+  position: relative; 
+  top: -28px; 
+  left: 64px; 
+  height: auto; 
+  border-radius: 0px; 
+  background: #fff; 
+  color: #000;
+}
+
+div.postList div.requestTextDiv {
+  float: left; 
+  width: auto; 
+  height: auto; 
+  border: 0px solid; 
+  box-shadow: 0px 0px 0px #000; 
+  position: relative; 
+  top: 36%; 
+  left: 0.8%;
+  padding: 0px;
+}
+
+div.postList div.requestTextDiv p {
+  line-height: 1em; 
+  float: left;
+  margin-top: 23px;
+  margin-left: 10px;
+  font-size: 110%;
+}
+
+div.postList div.requestTextFormDiv  {
+  float: left; 
+  width: auto; 
+  height: auto; 
+  position: relative; 
+  top: 0%; 
+  left: 4%; 
+  padding: 0px; 
+  margin-top: 0px; 
+  border: 0px solid; 
+  box-shadow: 0px 0px 0px #000;
+  background: transparent;
+  font-size: 100%;
+}
+
+div.postList div.requestTextFormDiv input {
+ 
+}
+
+* {
+  /* border: 1px solid; */
+}
+
+div.no_msg_notif {
+  margin-top: 60px; 
+  height: auto;
+}
+
+div.no_msg_notif h1.no_msg_notif_h1 {
+  height: 100px; 
+  color: #aaa; 
+  padding-left: 166px; 
+  padding-top: 49px; 
+  font-size: 140%;
+}

@@ -1,0 +1,207 @@
+#firstDiv {
+  padding: 1em;
+}
+
+#firstDiv form { width: 100%; height: auto; position: relative; }
+
+#firstDiv form #linkPar {height: 40px;}
+
+/* This is how I want links within the form on the post page to appear.*/
+#firstDiv form a, #commentsDiv a#commentsBtn { display: inline-block; float: left; width: auto; height: 32px; color: #fff; padding: 8px 8px; text-decoration: none; background-color: #4a3; }
+
+#firstDiv form select {margin: 0px; width: 40%; 
+  height: 32px; margin-left: 20px; float: left; font-size: 1.0em; border-radius: 4px; border: 1px solid #ddd; }
+
+input[type = "text"],
+textarea, select
+{
+  height: 40px;
+  text-indent: 10px;
+  color: #555;
+  display: block;
+  margin-bottom: 20px;
+  text-indent: 4px;
+  background-color: #fcfcfc;
+  border-radius: 0px;
+  outline: none;
+  border: 1px solid #ddd;
+	font-size: 90%;
+}
+
+#postFormDiv [type = "text"]
+{
+  float: left;
+	width: 50%;
+}
+
+#postFormDiv select#subCategory {
+	float: left;
+	width: 45%;
+  height: 40px;
+	border-radius: 1px;
+	padding: 8px 6px;
+	font-size: 0.9em;
+	color: #aaa;
+}
+
+#postFormDiv select#subCategory option {
+	color: #555;
+}
+
+#submitPost {
+  position: relative;
+	top:-20px;
+} 
+
+textarea {
+  width: 100%;
+  height: 120px;
+	padding: 10px;
+	margin: 0px;
+}
+	
+#firstDiv form select:focus {
+  text-indent: 10px;
+  color: #555;
+  display: block;
+  text-indent: 4px;
+  background-color: #ffffff;
+ 
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+select option
+{
+  height: 40px;
+  text-indent: 8px;
+  padding: 8px 3px;
+  border: 0px solid;
+  outline: none;
+}
+
+form p {
+  clear: both;
+}
+
+#postFormDiv {
+  clear: both;
+  display: none;
+  padding-top: 30px;
+  position: relative;
+	top: -20px;
+}
+
+.postsDiv, .commentsDiv{
+  width: 100%;
+	position: relative;
+  background: #f4f4f4;
+	border: 1px solid #e3e3e3;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.postsDiv:nth-child(1) {
+	margin-top: 10px;
+}
+
+.postsDiv h3 {
+  line-height: .6em;
+  font-weight: 900;
+}
+
+.postsDiv h3 a {
+  text-decoration: none;
+  color: #59c;
+	font-weight: bold;
+}
+
+.postsDiv p {
+  line-height: 1.8em;
+}
+
+.postsDiv #recommendedTag{
+  position: absolute;
+	top: 0px;
+	right: 0%;
+	height: 38px;
+	width: 120px;
+	padding: 10px;
+	background: #4a3;
+	color: white;
+	font-size: 0.9em;
+}
+
+
+#postDateSpan {
+}
+
+.commentsDiv h3 {
+	float: left;
+	width: auto;
+	margin-bottom: 10px;
+}
+
+#commentDateSpan {
+  position: relative;
+  top: 4px;
+	left: -1.2%;
+	padding: 0px 10px;
+}
+
+#commentsDiv {
+	width: 100%;
+	height: 30px;
+  margin-top: 20px;
+}
+
+.commentsDiv p {
+	clear: both;
+}
+
+.commentsDiv {
+  height: auto;
+	background-color: #fcf5c9;
+}
+
+
+#commentsDiv #commentsTextAreaDiv {
+  width: 60%;
+	margin: 0px 40%;
+}
+
+#commentsDiv textarea{
+	width: 100%;
+	height: 80px;
+  margin-bottom: -12px;
+  border-radius: 2px;
+	text-indent: 0px;
+}
+
+#commentsDiv  #commentsTextAreaDiv #wedgeDiv {
+  display: inline-block;
+  width: 64%;
+	height: 3px;
+	float: left;
+}
+
+#commentsDiv  #commentsTextAreaDiv div#emoticonBtn {
+  display: inline-block;
+  width: 32px;
+	height: 32px;
+	float: left;
+	background: url('./smiling.png') 0px 0px no-repeat;
+}
+
+#emoticonBtn:hover {
+  cursor: pointer;
+}
+
+
+#commentsDiv a#commentsBtn {
+  display: inline-block;
+  width: 27%;
+	float: left;
+	font-size: 0.9em;
+	margin-left: 5px;
+}

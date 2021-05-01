@@ -1,0 +1,93 @@
+body {
+  min-height: 700px;
+  background: #dfdfdf;
+}
+
+h1, h2, h3 {margin: 0px; padding: 0px; }
+
+#content {
+  background-color: #dfdfdf;
+  height: auto;
+}
+
+div#headerSplash {
+  width: 94.4%;
+  margin: 22px;
+  margin-top: 60px;  
+  height: 200px;
+  background: #fff;
+  padding: 10px;
+ }
+
+/* div {
+border: 1px solid #222;
+} */
+div#hotlinks {
+  height: 800px;
+}
+
+#mainDiv{
+  float: left;
+  width: 68%;
+  height: auto;
+  margin-top: 0px;
+  margin-left: 0%;
+  margin-right: 0px;
+  padding: 0px;
+  font-family: Lucida-Grande, sans-serif;
+  color: #555;
+  background: #dfdfdf;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+footer {
+position: absolute;
+top: 100%;
+}
+
+#profilePic {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background: #dfdfdf;
+}
+
+#profileSummary {
+ float: left;
+ font-size: 0.9em;
+}
+
+#Name, #Department, #School, #Institution, #phraseSummaryDiv {
+  width: 480px;
+  padding-left: 20px;
+}
+
+.user_profiles {
+ width: 73%;
+}
+
+.user_profiles {
+ margin-top: 20px;
+ font-size: 0.8em;
+}
+
+.user_profiles img{
+ box-shadow: 1px 1px 4px #bbb;
+}
+
+
+.user_profiles {
+  height: 84px;
+  float: left;
+  margin: 20px 0px 0px 30px;
+  background: #fff;
+  padding: 10px;
+  padding-bottom: 20px;
+ }
+
+
+footer {
+  position: relative;
+  top: 100%;
+}

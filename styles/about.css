@@ -1,0 +1,228 @@
+/* div#left_advert { height: auto; padding-top: 60px; min-height: 730px; } */
+
+div#mainDiv { height: auto; width: 100%;  padding: 80px 0px 0px 0px; margin-top: 10px; font-size: 115%; }
+
+/* p { font-family: MartelSans-Regular;  } */
+
+/* div#right_advert { height: auto; padding-top: 60px; min-height: 730px; } */
+
+div#pageHeader {
+  height: 140px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  position: relative;
+  top: -50px;
+  border-bottom: 12px solid #ddd;
+}
+
+#introParDiv {
+  width: 30%;
+  float: left;
+  height: inherit;
+  padding: 0px;   
+}
+
+#introSplashDiv {
+  float: left;
+  width: 70%;
+  height: 140px;
+  background: url('cl_lineartpattern.jpg')100% 0px no-repeat;
+  border-bottom: 12px solid #ddd;
+}
+
+#introParDiv p#aboutPar {
+  margin-top: -30px;
+  margin-left: 30px;
+  font-size: 1.0em
+}
+
+#horzRule {
+  width: 100%;
+  height: 10px;
+  background: #333;
+}
+
+#emblemDiv {
+margin-top:0px;
+height: auto;
+padding: 0px 30px 0px 0px;
+font-family: Raleway-Heavy;
+}
+
+#emblemDiv h2 {
+font-family: Raleway-SemiBold;
+font-size: 1.6em;
+margin-left: 30px;
+}
+
+#emblemDiv p{
+  font-family: Raleway-SemiBold;
+  color: #99cc00;
+  margin-left: 30px;
+  position: relative;
+  top: -20px;
+}
+
+#emblemDiv p span {
+  font-size: 1.4em;
+}
+
+#emblemDiv p span:nth-child(2){
+  color: #aa9d45;
+}
+
+#emblemDiv p span:nth-child(2){
+  color: #aa9d45;
+}
+#emblemDiv p span:nth-child(3){
+  color: #aa5da5;  
+}
+
+#emblemDiv p span:nth-child(4){
+  color: #aa5d35;
+}
+
+#philoSubjectSplash {
+  clear: both;
+  height: 360px;
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 0px;
+}
+
+.featureDiv{
+  float: left;
+  width: 25%;
+  height: 320px;
+  background: #f1f1f1;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: -50px;
+}
+
+
+.featureDiv:nth-child(4){
+border-right: none;
+}
+
+.featureDiv .imgDiv{
+  width: 100%;
+  height: 54%;
+  padding-top: 6%;
+  padding-left: 33%;
+}
+
+.imgDiv img{
+  display: inline-block;
+  width: auto;
+  margin: 22% 15%;
+  
+}
+
+
+.desc h3{
+ margin-top: 0px;
+ margin-bottom: 8px;
+}
+
+.desc {
+  padding: .9em;
+  padding-top: .4em;
+}
+
+
+.desc{
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+}
+
+.desc h3, .desc p {
+  text-align: center;
+}
+
+.desc h3 {font-size: .9em; }
+
+.desc p {
+  font-size: .96em; 
+}
+
+#briefDiv {
+  height: 500px;
+  margin-top: 0px;
+  position: relative;
+  top: -91px;
+}
+
+#briefDiv div{
+  float: left;
+  width: 33.3%;
+  height: 370px;
+  padding: 30px;
+   border-top: 1px solid #d2d2d2;
+  border-right: 1px solid #ddd;
+  background: #ededed;
+  
+  background: -o-linear-gradient(top, rgba(235, 235, 235, .8), rgba(241, 241, 241, .1)); transition: all 2s; 
+  background: -webkit-linear-gradient(top, rgba(235, 235, 235, .8), rgba(241, 241, 241, .1)); transition: all 2s; 
+  background: -moz-linear-gradient(top, rgba(235, 235, 235, .8), rgba(241, 241, 241, .1)); transition: all 2s; 
+  background: linear-gradient(to bottom, rgba(235, 235, 235, .8), rgba(241, 241, 241, .1)); transition: all 2s;
+}
+
+
+#briefDiv div:nth-child(3){
+border-right: none;
+}
+
+#briefDiv div p{
+ line-height: 1.5em;
+}
+
+#briefDiv div ul{
+ margin-top: -15px;
+ margin-left: 15px;
+ list-style-image: url('./listImage.png');
+ 
+}
+
+#briefDiv div ul li{
+ margin-bottom: 8px;
+}
+
+span#termsTip {
+  font-size: 0.6em;
+}
+
+strong.highlight {
+  font-family: Khula-Light;
+  color: #b0cf20;
+  font-size: 1.2em;
+}
+
+#briefDiv2 span, .briefLink{
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #99dd00;
+  }
+  
+  .briefLink:hover{
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #77cc00;
+  }
+
+div#briefDiv3 a#signMeUpLink { 
+    clear: both;
+    display: inline-block;
+    background: #333; 
+    text-decoration: none; 
+    color: #eee; 
+    padding: 8px 12px;
+    margin-top: 10px; }
+
+footer {  
+  position: relative;
+  top: 0%;
+}

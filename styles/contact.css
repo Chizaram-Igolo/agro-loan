@@ -1,0 +1,138 @@
+body {
+  height: auto;   
+}
+
+section{
+   width: 100%;
+   height: auto;
+   padding: 0px;
+   margin: 0px;
+}
+
+div#mainDiv {
+  height: auto;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  margin-bottom: 0px;
+  font-family: Raleway-Regular, sans-serif;
+}
+
+div#mainContent {
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  top: 30px;
+}
+
+#introParDiv {
+   height: 140px;
+    width: 36%;
+    float: left;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -10px;
+    border-bottom: 12px solid #ddd;
+}
+
+#introSplashDiv {
+    float: left;
+    width: 64%;
+    height: 140px;
+    margin-top: -10px;
+    background: url('cl_lineartpattern.jpg')100% 0px no-repeat;
+    border-bottom: 12px solid #ddd;
+}
+
+#introParDiv p#aboutPar {
+  margin-top: -30px;
+  margin-left: 30px;
+  font-size: 1.0em
+}
+
+p { 
+  clear: both;
+}
+
+#emblemDiv {
+margin-top:0px;
+height: auto;
+padding: 0px 30px 0px 0px;
+padding-left: 40px;
+font-family: Raleway-Heavy;
+}
+
+#emblemDiv h2 {
+font-family: Raleway-SemiBold;
+font-size: 1.6em;
+margin-left: 0px;
+}
+
+#emblemDiv p{
+font-family: Raleway-SemiBold;
+ color: #99cc00;
+ margin-left: 0px;
+    position: relative;
+    top: -20px;
+}
+
+#emblemDiv p span {
+  font-size: 1.4em;
+}
+
+#emblemDiv p span:nth-child(2){
+  color: #aa9d45;
+}
+
+#emblemDiv p span:nth-child(2){
+  color: #aa9d45;
+}
+#emblemDiv p span:nth-child(3){
+  color: #aa5da5;  
+}
+
+#emblemDiv p span:nth-child(4){
+  color: #aa5d35;
+}
+
+#mainDiv p {
+  font-size: 20em;
+}
+
+h3 {
+  clear: both;
+  margin-bottom: 15px;   
+}
+
+#leftSideBar { clear: both; float: left; width: 36%; font-size: 1.0em; }
+
+/* #leftSideBar p { line-height: 1.6em;  padding: 20px; background-color: #55aa55; color: #fff; } */
+
+#midSection { float: left; width: 62%; height: auto; margin-left: 20px; font-size: 1.0em; }
+
+#midSection ul li { list-style: disc; height: auto; padding: 5px 6px; }
+
+#midSection ul li a { color: #fff; text-decoration: none; }
+
+#midSection ul li a:hover { text-decoration: underline; }
+
+#midSection table#parTable h3 { margin-top: 10px; }
+
+table#parTable, table#faqList { width: 100%; border-collapse: collapse;  }
+
+/* table tr:nth-child(odd) { background-color: #889955; color: #fff; }*/
+
+table#parTable tr, table#faqList tr{ background-color: #66af66; color: #fff; }
+
+table#parTable tr td, table#faqList tr td { padding: 10px 40px; font-size: 0.9em; }
+
+table#faqList tr td { border-bottom: 4px solid #559955; }
+
+table#parTable tr td:nth-child(3), table#faqList tr td:nth-child(3) { border-bottom: 0px solid #559955; }
+
+footer {  
+  clear: both;
+  margin-top: 600px;
+}
+
